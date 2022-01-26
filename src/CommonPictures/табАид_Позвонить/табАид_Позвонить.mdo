@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="670ad735-38cd-40e6-9c0a-76003ff78534">
-  <name>табАид_Позвонить</name>
-  <synonym>
-    <key>ru</key>
-    <value>Позвонить (ТАБ АИД)</value>
-  </synonym>
-  <availabilityForChoice>true</availabilityForChoice>
-</mdclass:CommonPicture>

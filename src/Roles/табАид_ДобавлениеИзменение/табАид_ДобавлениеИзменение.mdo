@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99a83352-f367-4430-a3bc-112686eff9c2">
-  <name>табАид_ДобавлениеИзменение</name>
-  <synonym>
-    <key>ru</key>
-    <value>Изменение объектов (ТАБ АИД)</value>
-  </synonym>
-</mdclass:Role>
