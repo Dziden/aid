@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="668cf1e5-c4f3-4fbd-a723-903371b8d5e1">
+  <name>табАид_ОтправкаГолосовойПочтыЧерез1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка голосовой почты через 1С (ТАБ АИД)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

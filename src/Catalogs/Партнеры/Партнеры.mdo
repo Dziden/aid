@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="589b52a2-951f-47ee-a902-cd50d4ddd652" extendedConfigurationObject="bf75bcc5-82ee-4bd0-89e1-420b42c99454">
+  <producedTypes>
+    <objectType typeId="046a3f1e-6481-418b-8b47-73f8b2580c8f" valueTypeId="34621490-3dec-4b93-b2af-2568d4deab10"/>
+    <refType typeId="e3ffc383-9140-4e5b-9829-d86032c8d655" valueTypeId="bc1330e9-d01b-4e22-9952-1ff2cf1911e8"/>
+    <selectionType typeId="07c35b17-1a44-427c-a713-daaa658e8d21" valueTypeId="2b8b8fa1-349d-49a0-bd7a-919d2e03a825"/>
+    <listType typeId="f6cae89a-b8c1-4512-8912-7131a71be896" valueTypeId="44635991-f9da-4d22-abea-3a9cc5c5d72f"/>
+    <managerType typeId="17b52813-f54a-485e-b847-833cb8021b03" valueTypeId="dbe00783-f3f8-463a-91ba-20ac3666218d"/>
+  </producedTypes>
+  <name>Партнеры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="6a81a201-1688-4dae-be2e-95ffadc07dbd">
+      <name>НашеПредприятие</name>
+      <description>Наше предприятие</description>
+      <code xsi:type="core:StringValue">
+        <value>УТ-00000001</value>
+      </code>
+    </items>
+  </predefined>
+  <attributes uuid="6a74941b-d9a1-4f4e-8463-f49fb5434c45">
+    <name>табАид_СтатусПартнера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус платежной дисциплины (ТАБ АИД)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.табАид_СтатусыПартнеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94306b82-c947-43a2-8735-f89b84a6d09e">
+    <name>табАид_ЧасовойПояс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовой пояс (ТАБ АИД)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2605871a-6a00-440a-b8c2-38dea00b34cc">
+    <name>табАид_ДругойЧасовойПояс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другой часовой пояс (ТАБ АИД)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b256481e-0819-44cf-8249-313feb915f6e" extendedConfigurationObject="741e4c8a-4f04-4371-8559-507b5ad514c2">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="1b342f54-7c80-402f-9266-53fd81e4b041" extendedConfigurationObject="0a9b29ca-f68a-4d5c-8ba0-9a2fb079ab7c">
+    <name>ФормаЭлементаРеквизитыКонтрагента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

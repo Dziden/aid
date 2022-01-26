@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ba8e8699-ff03-4bd8-99d5-828491444b8f" extendedConfigurationObject="2ac23005-c54f-421a-add8-7227d22cdeea">
+  <producedTypes>
+    <selectionType typeId="119f828f-7639-4f37-a560-cbeeda693d61" valueTypeId="e480c01b-06a6-40da-b03b-562b5796db1e"/>
+    <listType typeId="9003334a-ee18-4ee3-a7b6-016348df50f1" valueTypeId="10bcace8-48ab-48a9-a93e-6f7889af830a"/>
+    <managerType typeId="ad5d53ac-797d-4015-8ffa-78bf73a7c463" valueTypeId="08614b77-1530-4c79-a38b-e526fda5aeef"/>
+    <recordSetType typeId="f68f4dfa-c468-490d-b41a-fc5cb66445ed" valueTypeId="4f59ae76-ad90-42fa-8946-8dd24322ac2a"/>
+    <recordKeyType typeId="7822628f-8bdc-48fc-bf0b-640132e4ea32" valueTypeId="6875ed0e-9438-4ce0-b433-e476b2fbab37"/>
+    <recordType typeId="23336f69-6e56-463a-ae35-35a84fef1b4d" valueTypeId="a103de5f-1e3c-4477-9048-8af561ea38fd"/>
+  </producedTypes>
+  <name>РасчетыСКлиентами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <resources uuid="9a5fab85-c926-44a8-82c1-824ea83d55b7" extendedConfigurationObject="c9e8d76f-ff62-4b53-8393-d4d0482f63de">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="2ced8666-8040-498d-ae3d-b63ece00ad8e" extendedConfigurationObject="afeb0af1-5159-463d-893c-372eb713c31a">
+    <name>КОплате</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="a58d73dd-045d-44c1-a95a-29d75355a7a2" extendedConfigurationObject="38b6b894-514c-40dc-9a4d-f114be9f1a16">
+    <name>Оплачивается</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="c9f8cf15-ca82-47b1-bd0d-9490f19ce12c" extendedConfigurationObject="06ccc02c-72ab-4b76-a0b3-695334fd7845">
+    <name>КОтгрузке</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="2e75ee59-e4d2-4129-b9bd-e6197eddb851" extendedConfigurationObject="010c24b1-693e-46e3-b142-cfd9d7165932">
+    <name>Отгружается</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="0eb53cd7-6789-466f-abf5-327ba2b6ac29" extendedConfigurationObject="c261318d-7813-4ff1-8601-69049a80e54a">
+    <name>АналитикаУчетаПоПартнерам</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлючиАналитикиУчетаПоПартнерам</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="0c352f4a-81f4-4df5-8841-62b6b6682b69" extendedConfigurationObject="b669e898-2a3e-4b99-adb4-753e8d178728">
+    <name>ЗаказКлиента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОбъектРасчетовСКлиентами</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="aa0c9f6d-bc17-4c29-a6de-b963ba46f9f7" extendedConfigurationObject="d320b33c-395d-45d0-a059-6ebb69d4403c">
+    <name>Валюта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <templates uuid="f9aabcae-403f-4847-8b68-8e697dbe7f8c">
+    <name>табАид_ДанныеШаблонаСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таб аид данные шаблона сообщений</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:AccumulationRegister>

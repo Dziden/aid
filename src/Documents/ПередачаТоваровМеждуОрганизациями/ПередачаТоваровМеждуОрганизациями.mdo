@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ddd0ee78-78df-4435-a65e-181647972874" extendedConfigurationObject="72b83c8f-0045-4910-bcc8-b09974e023b3">
+  <producedTypes>
+    <objectType typeId="a94c6164-e4fc-4f4a-b471-dbd13c9c939f" valueTypeId="c3180393-8c5d-4879-b6b5-e817805e4085"/>
+    <refType typeId="68ed9e26-1dbf-4bab-b0ba-2d7cad6b47db" valueTypeId="4e0b177f-c82d-4473-9aa1-0f75585748d4"/>
+    <selectionType typeId="22024903-583c-4e99-be4b-1c5b03ceafeb" valueTypeId="75c50471-48f5-4152-bab4-89166baadea8"/>
+    <listType typeId="8eee40c8-26a3-4be2-8eef-69d9c62c8ff0" valueTypeId="14501a9a-9621-4add-bbf4-9544b2caab2f"/>
+    <managerType typeId="63263239-61cd-4d66-8615-7cbdae2e2bb0" valueTypeId="3de8bd23-a90f-48e8-80f1-1eb811d0b1d6"/>
+  </producedTypes>
+  <name>ПередачаТоваровМеждуОрганизациями</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

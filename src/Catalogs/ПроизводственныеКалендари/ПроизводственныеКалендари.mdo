@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5f813942-09c3-41a1-b562-c7840cbff16f" extendedConfigurationObject="77149f7a-8a76-4569-9487-991c41e132ef">
+  <producedTypes>
+    <objectType typeId="a1afe0e0-20f4-4c10-abd4-0ac63558ccd1" valueTypeId="458b7067-25ee-4ccb-9550-b2c9ad29e13c"/>
+    <refType typeId="2af9d0af-bec6-49a6-a422-38ac01169337" valueTypeId="c8fa4704-ccb2-4633-9d80-bc17afb15a01"/>
+    <selectionType typeId="ee99242e-450e-41e4-a804-f9dda9ee5fa9" valueTypeId="c5a4da0a-b6d7-4143-ad57-bab76c3fc6c6"/>
+    <listType typeId="6ef88278-80db-4b21-866f-9c176678f54c" valueTypeId="ba80a648-437d-450d-9357-372f93a8554b"/>
+    <managerType typeId="8bf63141-63e1-48c2-be68-413bb5186889" valueTypeId="7bbd8052-e529-4511-8035-cd99a2bd00c5"/>
+  </producedTypes>
+  <name>ПроизводственныеКалендари</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="92436dcc-fb42-46e5-9c9f-405b0e08dcb5" extendedConfigurationObject="239601eb-e8de-4d58-a32a-01ee52f6e698">
+  <producedTypes>
+    <objectType typeId="136b46d4-0236-4e87-a498-74d6f2e315bb" valueTypeId="068e5d63-6420-4f9b-9c59-5d9f6e5f2c68"/>
+    <managerType typeId="04c7fe39-8e02-4b92-af0a-e01035e10b11" valueTypeId="551b917a-2a19-4412-85e4-847df223774d"/>
+  </producedTypes>
+  <name>РегламентныеИФоновыеЗадания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="2d34c1ab-bba0-45a6-a73b-d0f0bc3fc213" extendedConfigurationObject="11370667-bec5-4a2d-8aa1-97f4d795718f">
+    <name>РегламентныеИФоновыеЗадания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

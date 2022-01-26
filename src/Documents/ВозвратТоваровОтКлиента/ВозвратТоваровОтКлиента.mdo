@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aa035d6d-3295-48b0-b08a-a45ec1c1b57e" extendedConfigurationObject="69907d01-2fac-4a13-a6a2-2cf0af2a60bf">
+  <producedTypes>
+    <objectType typeId="913193f6-39d1-42b9-ae53-dbdc59a079f9" valueTypeId="7ad6e1fb-94b9-4dc5-879c-b22eed51a6bb"/>
+    <refType typeId="24db86f6-4622-4bbe-90c5-aeb125442eae" valueTypeId="19d20d51-4156-4452-8be9-5e266c95c875"/>
+    <selectionType typeId="ba1c2b00-1d8a-4adf-b1db-df95fbc75168" valueTypeId="82051b9e-694e-4746-88c8-e0dac031a070"/>
+    <listType typeId="61deeb73-e05b-4857-bf22-bbf3bc06ffbf" valueTypeId="95044a7b-0eec-4c3c-9028-cb6b3fa256a5"/>
+    <managerType typeId="b038a9a8-9c17-4fdf-ab3d-668de8c05c21" valueTypeId="ea3453f8-729e-413a-a887-2f1bb1388e24"/>
+  </producedTypes>
+  <name>ВозвратТоваровОтКлиента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

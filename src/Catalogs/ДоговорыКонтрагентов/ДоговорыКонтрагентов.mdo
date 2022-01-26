@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="228ccf6b-b2e1-4c49-9b2f-58b0ad441190" extendedConfigurationObject="3404cb9a-92ea-42b9-9086-ad481dbc27d7">
+  <producedTypes>
+    <objectType typeId="4be5d088-8717-4e66-b008-3229e05515a3" valueTypeId="5abb54c5-08ea-4855-b91c-0b12e660da49"/>
+    <refType typeId="7ee87c6e-3057-4407-a485-ae62022a4fa5" valueTypeId="1db50af5-0a2d-4fae-abcd-d706f7bb9c0f"/>
+    <selectionType typeId="557f0d94-a082-45ef-9bb5-c070c2658a42" valueTypeId="13f7eec9-dfd3-4d94-a346-43990f0a7843"/>
+    <listType typeId="733f19d3-e2fb-4929-bc94-0fbaef1477d2" valueTypeId="871b24d7-c782-431e-a4b2-a524903d6cae"/>
+    <managerType typeId="0e738f96-e672-4665-a06c-a12a7df09756" valueTypeId="1e58fb7d-5d44-48dd-a15d-a91f84319006"/>
+  </producedTypes>
+  <name>ДоговорыКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="90a667d9-15d2-4e90-b9d3-19e1fb601ac6" extendedConfigurationObject="a00d91d9-5c1d-491a-b338-92dc631c1afd">
+    <name>Дата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="fb7c8f82-e119-43b9-b5b6-97a38d3d781d" extendedConfigurationObject="c2821c1b-dcf2-47d6-9871-b26fe7c33e1f">
+    <name>Номер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>128</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="81a1bd0c-90a7-4def-8fe4-4b22ae269882" extendedConfigurationObject="ba089968-9caa-4200-9002-b8f3267b4b61">
+    <name>КонтактноеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КонтактныеЛицаПартнеров</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="eb808f6b-9e3e-44db-a6ab-58adc4074e57" extendedConfigurationObject="c823828e-6f11-4a1f-b49c-12c925105961">
+    <name>СрокОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="dd247ab1-644d-4325-a619-f5006bde6b2a" extendedConfigurationObject="438e8d08-2978-4648-981b-19e6b31901bd">
+    <name>УстановленСрокОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="5ae8546b-dad2-4944-8556-b9c0608557d7" extendedConfigurationObject="92fb5452-6c85-4d20-915a-3faee12eda7d">
+    <name>ТипДоговора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыДоговоров</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="8712e2e9-43e7-4638-b572-db7a13e98ecf">
+    <name>табАид_ВидДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид договора (для ТАБ АИД)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.табАид_ВидыДоговоров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="95b92790-cebf-466a-9efe-196c60596840" extendedConfigurationObject="40b52a5b-1845-4d3e-a33e-3888d0dec1ab">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

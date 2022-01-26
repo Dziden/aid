@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="650ed6c7-929d-42bb-80b8-a50b9ca9fd46" extendedConfigurationObject="f152945b-2a7b-449e-a915-176166af7bac">
+  <producedTypes>
+    <refType typeId="9ffe8050-aee0-4aba-be5a-2c4aae19222f" valueTypeId="1e9b345c-f6f6-470e-96ba-3089b792ba6c"/>
+    <listType typeId="61dadf99-85aa-4537-9a6e-09085fc910cf" valueTypeId="45d5c217-b398-4641-a50e-ec00c9fae492"/>
+    <managerType typeId="16703f5e-599a-419f-959f-ea12da374a99" valueTypeId="fae71bbd-dcd5-4761-8f03-c923af1c0cc5"/>
+  </producedTypes>
+  <name>СпособыРедактированияЭлектронныхПисем</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="b25a33ba-53de-4c58-b706-7b2c62056b2d" extendedConfigurationObject="77f5d86a-7fae-4490-9740-0e31102dab5c">
+    <name>ОбычныйТекст</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="e78a36a2-ac4c-4eb2-ab0a-b443d2e985c9" extendedConfigurationObject="5a54bc1a-d178-412c-bf4a-cf92d7f141aa">
+    <name>HTML</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

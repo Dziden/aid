@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="42416e2c-8705-43d7-9631-81cd2acf1819" extendedConfigurationObject="319b18a1-cc82-48d9-8160-65a0c64d1318">
+  <producedTypes>
+    <objectType typeId="a9bc0fab-5d45-4f3f-bd79-2709567a1660" valueTypeId="fde2934b-fd7a-4538-ad3f-1ad67dd739b1"/>
+    <refType typeId="530683e3-a022-4372-8dfb-4361d6b41a06" valueTypeId="a03d8a6a-2793-4cd7-906e-9e2552e676d6"/>
+    <selectionType typeId="d5e1e99d-b96f-47fb-86f1-029dada5f4b0" valueTypeId="342e811a-12ef-470d-b765-4a706108dba0"/>
+    <listType typeId="f86fb977-0b44-40ce-b481-1bfce2e303c3" valueTypeId="041ad48d-16f5-497d-9735-4cd17520cd24"/>
+    <managerType typeId="aeb47f30-afc9-435b-a9a6-96b47a54b36a" valueTypeId="727ae9b0-23e1-4a4e-9978-6597823124b9"/>
+  </producedTypes>
+  <name>ОтчетКомиссионера</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

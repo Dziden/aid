@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6e5a280c-2ceb-463f-aff1-4c1766a33695" extendedConfigurationObject="877a04b6-4c0b-4715-b826-6ac77909e040">
+  <producedTypes>
+    <objectType typeId="778357db-c7fe-42b2-8534-8d055aa7c4b2" valueTypeId="186d36cb-798d-4d40-b610-cd370b2b9272"/>
+    <refType typeId="6bb7cff5-bd71-4717-a6d8-094c8e0133cc" valueTypeId="27532e08-a954-40df-960b-1ac9939ec80a"/>
+    <selectionType typeId="1f383096-d9ac-4a81-8b64-e0731b162341" valueTypeId="13139829-326a-4c3c-8043-a4722b22cb73"/>
+    <listType typeId="8da3733d-f03b-424b-96a1-0ab9678c6295" valueTypeId="58d56610-1052-43c7-9f0c-4bca3256b529"/>
+    <managerType typeId="94eeda0d-4bca-4236-8470-457c6d6c1dd7" valueTypeId="0bbd66ca-f78a-40bd-9906-d3f80d9d62c5"/>
+  </producedTypes>
+  <name>КонтактныеЛицаПартнеров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="64b06891-cee0-4541-ae40-019f5ff71cc2" extendedConfigurationObject="29cd916a-e579-4b2a-8c42-645cfd2a9521">
+    <name>ДолжностьПоВизитке</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="90776217-3780-4052-8efc-a1b5986eb571" extendedConfigurationObject="cd170420-6eb1-4342-ac01-7cc15a278469">
+    <name>Пол</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ПолФизическогоЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="a94fa51b-4593-46a3-a02f-d81bcc59763f" extendedConfigurationObject="efdba2ff-28d3-43e9-8a52-18d323bd2f14">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

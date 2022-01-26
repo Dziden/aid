@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1a70bc82-4d59-437c-8572-2ca3d613b9b8" extendedConfigurationObject="77df64cf-b86b-4d21-bca9-262424a3c059">
+  <producedTypes>
+    <objectType typeId="64cd4a68-9f0b-4e90-bfda-2b0687030de7" valueTypeId="40c074a1-89bf-4f57-96a3-42e775ee2e34"/>
+    <managerType typeId="a7e75ad1-bd7a-43f5-9b41-f80a2b896f0b" valueTypeId="a9ac182d-5fdd-4788-b745-7668412d2c15"/>
+  </producedTypes>
+  <name>ЗадолженностьКлиентовПоСрокам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Report>

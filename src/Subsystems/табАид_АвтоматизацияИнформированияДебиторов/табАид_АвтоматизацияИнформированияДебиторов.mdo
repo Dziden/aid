@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa934d71-c267-47d9-abda-019b52849f38">
+  <name>табАид_АвтоматизацияИнформированияДебиторов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматизация информирования дебиторов (ТАБ АИД)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Notifications</picture>
+  </picture>
+  <content>Catalog.табАид_СтатусыПартнеров</content>
+  <content>Catalog.табАид_ВидыДоговоров</content>
+  <content>Enum.табАид_ТипыСообщений</content>
+  <content>InformationRegister.табАид_Настройки</content>
+  <content>Enum.табАид_ПровайдерыТелефонии</content>
+  <content>InformationRegister.табАид_ПравилаФормированияСобытий</content>
+  <content>InformationRegister.табАид_ЖурналСобытий</content>
+  <content>Catalog.ШаблоныСообщений</content>
+  <content>Report.табАид_ЖурналСобытий</content>
+  <content>InformationRegister.табАид_СписокСообщений</content>
+  <content>InformationRegister.табАид_НеВключатьВРассылку</content>
+  <content>Report.ЗадолженностьКлиентовПоСрокам</content>
+  <content>CommonCommand.табАид_НужнаПомощь</content>
+  <content>DataProcessor.табАид_ВиртуальныйМенеджер</content>
+</mdclass:Subsystem>

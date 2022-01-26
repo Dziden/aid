@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5691f8c-5a00-45eb-8860-9afaa0eeb77d">
+  <name>табАид_ОбщегоНазначенияПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения переопределяемый (ТАБ АИД)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

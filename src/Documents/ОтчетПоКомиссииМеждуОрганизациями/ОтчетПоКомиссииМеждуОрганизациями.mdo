@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d645279c-9b6d-41e3-aa7b-900a76354def" extendedConfigurationObject="69f8a8ca-2aa8-432c-a64d-c5690045f6cf">
+  <producedTypes>
+    <objectType typeId="978be096-b042-47a4-8f18-98db8a38f6a9" valueTypeId="75406aed-7b99-49b3-9011-4770422a8f4d"/>
+    <refType typeId="c8526edb-1f3b-499b-8692-0132973b7f7d" valueTypeId="6b1e46b1-6221-4830-840a-e269d2b7bfb8"/>
+    <selectionType typeId="5b496f53-f56d-4d5c-ba07-c80ea566e881" valueTypeId="3922db14-2cc1-411d-9c8d-5d20cbbb0a86"/>
+    <listType typeId="1d57bc98-2d0b-433a-9d0f-89c7e886abf9" valueTypeId="ccb5213a-8677-4cd5-8329-fd049f74e4d2"/>
+    <managerType typeId="3083dcd0-93c3-4025-924c-d47691564c4d" valueTypeId="c41353c6-4a67-417b-a1df-90b84c2ddff9"/>
+  </producedTypes>
+  <name>ОтчетПоКомиссииМеждуОрганизациями</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>
