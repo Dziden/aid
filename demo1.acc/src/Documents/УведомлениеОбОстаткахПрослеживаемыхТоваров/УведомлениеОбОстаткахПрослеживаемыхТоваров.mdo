@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dcdab8b8-dae4-4296-b0dc-1f095aa7d7ca" extendedConfigurationObject="ada8ef0c-fe77-4153-b7ef-b25507a9dc6a">
+  <producedTypes>
+    <objectType typeId="8cc35fb7-adc2-4598-865c-f325e8e1d854" valueTypeId="c29b06e4-ef73-4062-984b-681dde44317c"/>
+    <refType typeId="4583f9e4-87ae-4a5c-9ee9-d6c6525e9223" valueTypeId="82cc79bd-9ac9-4342-9023-c8295632c66e"/>
+    <selectionType typeId="815f371e-2b25-4368-9358-c59ff9fafd72" valueTypeId="df7c5c72-93b5-4059-afc4-1327fb3d3d97"/>
+    <listType typeId="84dc7683-a377-4494-9e94-c29c6511489f" valueTypeId="068e5331-ce9e-4b7b-b3bd-8323a18658b8"/>
+    <managerType typeId="9029cd54-84db-40d5-84d6-bbfe71b2d275" valueTypeId="c23fe1d4-2a24-4d5e-9030-56e6f4b96aca"/>
+  </producedTypes>
+  <name>УведомлениеОбОстаткахПрослеживаемыхТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="d1d21b19-918a-4173-909f-c9acf2318433" extendedConfigurationObject="1948a590-7671-4462-971a-8bc70470f98e">
+    <name>ПервичныйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеУведомленияОбОстатках</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="c436027d-dbcf-4322-8331-c1af552a0a3e" extendedConfigurationObject="21e774a6-4658-4652-9afa-973ea1aa58ba">
+    <name>ДокументУведомлениеОбОстатках</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.УведомлениеОбОстаткахПрослеживаемыхТоваров</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5e77581b-7489-46bf-b957-28d4fb659d58" extendedConfigurationObject="1cc042b5-ff65-4629-ae4b-c0bb288ab991">
+  <producedTypes>
+    <objectType typeId="67629d65-2d23-4016-81bf-cb3b6c7783dd" valueTypeId="657bb364-7199-4d7c-8b72-ee2ff297a32d"/>
+    <refType typeId="8b90e663-327b-41a3-8712-9e130b671054" valueTypeId="dcfe9047-9b41-47ad-b54d-f31dd5570ad1"/>
+    <selectionType typeId="14c8423a-61d9-44d8-8758-6a3431e5ad84" valueTypeId="c9608667-be54-473c-83d4-303ce4588f0e"/>
+    <listType typeId="89ff7d15-aa31-4748-9d18-fa5e38349742" valueTypeId="270d1f13-4a23-48b7-904e-8d9f35829a27"/>
+    <managerType typeId="5de33319-47fe-4372-941b-e191a862b237" valueTypeId="40249f8a-6371-4806-8d4f-68f0ba61c13a"/>
+  </producedTypes>
+  <name>ПлатежноеПоручение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="c961008e-3245-4c7a-a60d-1d988d9d1f61" extendedConfigurationObject="5dcc5814-7ca9-468c-86c0-97de0257a5d8">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="7b7e02b5-b75b-4de5-95ba-7945335dfb56" extendedConfigurationObject="f8d0bee0-93b2-4a5a-ba4c-aca6f41826bc">
+    <name>НачислениеДивидендов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.НачислениеДивидендов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8970d14d-81bc-4ddc-a403-3e69e76f26c6" extendedConfigurationObject="8d346d03-a35c-418f-be92-ebb07fbf43eb">
+    <name>РеестрВыплатСамозанятым</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ВыплатыСамозанятым</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

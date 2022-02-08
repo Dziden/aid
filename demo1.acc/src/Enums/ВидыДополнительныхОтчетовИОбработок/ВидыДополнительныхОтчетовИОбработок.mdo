@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c1c29852-d9ff-4f7a-b90d-fe9571da59a2" extendedConfigurationObject="752dc569-cf84-42d7-911d-49d455f7214e">
+  <producedTypes>
+    <refType typeId="877acc54-9854-45ad-ad86-8812911e4c50" valueTypeId="f4453edc-99b4-44d0-9ddb-0b341856939a"/>
+    <listType typeId="ae66d0a1-8385-4600-adda-330710233152" valueTypeId="0de14ea9-b5dd-41fa-8323-89e632535cd7"/>
+    <managerType typeId="e86e335f-bad1-4a5c-b162-3d7b2bd6f622" valueTypeId="070780c7-53ec-4a07-82d7-31884b7bcede"/>
+  </producedTypes>
+  <name>ВидыДополнительныхОтчетовИОбработок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="cacd250d-ba91-4097-b35a-c41548aff149" extendedConfigurationObject="a89ee622-6942-411a-8566-f03d139c9e5b">
+    <name>ШаблонСообщения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

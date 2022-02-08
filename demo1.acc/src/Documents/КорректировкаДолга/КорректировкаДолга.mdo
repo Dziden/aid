@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f3b7d90b-9e60-4b24-a5ea-51120f7237ce" extendedConfigurationObject="64dfc119-cedf-4455-9db1-476b51699985">
+  <producedTypes>
+    <objectType typeId="5a36d2ce-b9f6-4f29-917b-a4bb399908bb" valueTypeId="36d7fb8a-a7ae-4a3f-b694-7660e8f1774e"/>
+    <refType typeId="dcbfc163-7985-44dc-aa1d-22fc3d445158" valueTypeId="385ddfaa-4b85-4b0f-b323-61d7bdc343fb"/>
+    <selectionType typeId="3c49488c-26fc-4958-81b0-ec7d5c527683" valueTypeId="a463bd81-4795-45c3-aa7e-df97087c6562"/>
+    <listType typeId="c928ab83-64c5-4b3d-9035-688f6e0f4e54" valueTypeId="8e64cdd2-7fbf-4955-9e46-b73126351733"/>
+    <managerType typeId="a9117fa2-7a1e-4f3a-8ec8-87254e4b0a3e" valueTypeId="93f50dcc-62bd-434c-ae78-e00e63a57fcb"/>
+  </producedTypes>
+  <name>КорректировкаДолга</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="be9b9ede-fbff-43c8-8cd3-434b610de027" extendedConfigurationObject="2eea0d20-a070-4ae5-867d-4606205469ed">
+    <producedTypes>
+      <objectType typeId="fd0f9049-8186-4344-b9ba-cd16663a4f09" valueTypeId="d14a0958-f420-4829-9a52-01f4d9653ef7"/>
+      <rowType typeId="c9ecdfb1-1134-4f6f-853e-eb9e0da712e8" valueTypeId="1ef74c82-7bb5-4ea7-a8aa-3966fc6bc3f4"/>
+    </producedTypes>
+    <name>ДебиторскаяЗадолженность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="8eaae25b-927e-431d-8752-b21b330ac0c6" extendedConfigurationObject="2a619ef0-950b-4779-bb3f-65bc347e4263">
+      <name>Сделка</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d7fd8618-505e-4ce7-974f-f44e18cfdb05" extendedConfigurationObject="6c53eceb-3ab0-44b4-90e7-3abc2d859406">
+    <producedTypes>
+      <objectType typeId="8c71b5dc-1f0a-4143-80d3-2b9af073d5e5" valueTypeId="311d7b4a-4797-4354-98af-afaf85020ae4"/>
+      <rowType typeId="1377e303-16ce-48e6-946a-113566798226" valueTypeId="9d63b3c6-4f73-4903-92fd-95baac6499cf"/>
+    </producedTypes>
+    <name>КредиторскаяЗадолженность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="2b418413-70d1-4701-b5c6-18a8b71b6e5f" extendedConfigurationObject="7b9866f0-3b72-404b-84f2-24844872f705">
+      <name>Сделка</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

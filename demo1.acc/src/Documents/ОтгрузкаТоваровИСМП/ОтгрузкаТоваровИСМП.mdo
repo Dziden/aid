@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c8f8c4a0-41f5-4187-8adf-b5bb64f783a3" extendedConfigurationObject="ff80fad0-2ab7-4a61-a8dd-399966d425a6">
+  <producedTypes>
+    <objectType typeId="6cd006e0-da06-4b43-bda0-b6f270ff1e0f" valueTypeId="e93e7724-e15e-4f23-a9a7-d6f709b803e2"/>
+    <refType typeId="8699937a-4589-4466-a7db-d02801184460" valueTypeId="6dd35f50-be16-4d53-bf2c-f966b9ac36ed"/>
+    <selectionType typeId="c899a022-4d07-4671-8c93-4a2f562d2113" valueTypeId="0bfc2680-b223-41fd-8738-8d6830c3f189"/>
+    <listType typeId="f5da440d-7387-41f1-b39f-4f80e8d83491" valueTypeId="0636f709-6a95-4202-a70e-000956de32f9"/>
+    <managerType typeId="b0c8f6fd-6d9d-46c9-b3ab-da6b25b812c8" valueTypeId="1a40c705-730e-4991-9c22-b2cdcb26558a"/>
+  </producedTypes>
+  <name>ОтгрузкаТоваровИСМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="15a16116-88b3-4045-882d-b066e686f4d1" extendedConfigurationObject="48333840-b987-4704-a890-efe7611d3efb">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеОтгрузкаТоваровИСМП</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

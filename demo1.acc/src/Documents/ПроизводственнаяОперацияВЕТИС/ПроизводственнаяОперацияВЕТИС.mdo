@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="231f035f-a182-48b9-b93e-f6ab55f0dabc" extendedConfigurationObject="ef699604-a4cb-4d1f-a1b0-84846d1b5e6e">
+  <producedTypes>
+    <objectType typeId="87eae4c5-9378-4572-a435-afdfa7594033" valueTypeId="817d68fb-0dca-417a-9715-0dd1ce8551e5"/>
+    <refType typeId="91c7634d-0d25-44a9-9a5d-236996724d23" valueTypeId="a3cc78d3-04b3-4c21-b397-6282408586c9"/>
+    <selectionType typeId="c68f405c-ad5c-4ef3-9809-4c126cfa8af9" valueTypeId="a8c15cbd-d530-4ad9-b60c-5d1a95ea5a95"/>
+    <listType typeId="4ca49766-fce0-4c00-a0d2-255e65e7d55e" valueTypeId="ac03062d-97f5-4025-89eb-18a9ab69da58"/>
+    <managerType typeId="a713e48e-0bff-4625-9cf5-ad4e024aaab6" valueTypeId="e5016099-685a-4bb7-b6a8-62fecf4d1237"/>
+  </producedTypes>
+  <name>ПроизводственнаяОперацияВЕТИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="cad571ec-fd38-43f0-acec-aa4e87e85f6e" extendedConfigurationObject="4f95316f-ed43-44d8-b1a9-018f9b5b4f28">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеПроизводственнаяОперацияВЕТИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

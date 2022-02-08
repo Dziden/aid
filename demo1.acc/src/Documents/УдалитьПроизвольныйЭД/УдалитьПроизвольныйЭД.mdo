@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6fdcabae-56b1-4049-8bad-98cba7611973" extendedConfigurationObject="38b773d7-0997-459e-9f6f-9da668377e7a">
+  <producedTypes>
+    <objectType typeId="eab88b1f-b175-4fde-8776-bc15a2f88eca" valueTypeId="4ac3a5a8-2f80-4e34-9e17-042662e528bc"/>
+    <refType typeId="3a30cb29-895d-463c-afb1-c9004aa7d468" valueTypeId="0bd64cd1-a56b-47d7-b675-c9384164d074"/>
+    <selectionType typeId="bc484e63-52f9-40bd-b6bb-4b5e8bef18f1" valueTypeId="199dd81e-55fd-49d9-a97d-9e5f8f58e522"/>
+    <listType typeId="91a8043a-2a6b-4009-9fc2-83ee06c890f1" valueTypeId="dc952073-0d24-4100-9e0e-51e5af7e4390"/>
+    <managerType typeId="a8327e40-0e83-4eb2-8152-6e3b959b326b" valueTypeId="f4ad077f-809f-4de3-bac5-5e5f6c0e98cb"/>
+  </producedTypes>
+  <name>УдалитьПроизвольныйЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="ed103fba-37cb-4379-8b46-1585e1a8a7d5" extendedConfigurationObject="e6f338f4-0535-4bfa-af62-4f966e056a0d">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованияЭлектронныхДокументовЭДО</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

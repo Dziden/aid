@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="972711e9-ef74-4be8-91cd-4da20cad5206" extendedConfigurationObject="d7618923-a1ec-4a06-b44f-02c7f7bd46b6">
+  <producedTypes>
+    <objectType typeId="9623db86-6204-4f46-81df-c1a5e54f4652" valueTypeId="3f871f7a-2d01-4a59-b59c-fbf65579e456"/>
+    <refType typeId="e31897ca-b7d1-4dd1-86de-8afd07d7d62a" valueTypeId="bdbb282e-0419-4255-9e1c-d7771a6e2e85"/>
+    <selectionType typeId="97de30f5-96f4-4f4a-97a5-66bad7042e6e" valueTypeId="9e36aa5e-c12d-482d-a935-c979d7b909e3"/>
+    <listType typeId="c8c43d17-929a-4123-b16a-2582a6567d4c" valueTypeId="7a2a4b4b-47a8-44bf-afc4-a1a720db2538"/>
+    <managerType typeId="79d7d604-cbbc-4007-9cfb-b472c2efadaa" valueTypeId="1b5025b0-af39-4589-913b-5993ac79b031"/>
+  </producedTypes>
+  <name>ВедомостьНаВыплатуЗарплатыВБанк</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="5655dc1c-f13a-42a0-a1bb-6029c5b3adea" extendedConfigurationObject="7edc8670-0d8b-4e8d-a0d5-81a1eb17a759">
+    <producedTypes>
+      <objectType typeId="4c11034a-92ff-4bce-8561-7e0a3f884979" valueTypeId="f3795cbe-7c63-4a5d-ae5e-ae6d0fa02115"/>
+      <rowType typeId="437256ff-d894-4932-b575-6dc29388c876" valueTypeId="e8b908a9-ebe7-4da8-8187-372cf2163262"/>
+    </producedTypes>
+    <name>Зарплата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="ab3f585b-c78d-4f80-8ac2-89237fa4c186" extendedConfigurationObject="94d0799b-8669-4d88-b230-ef913d472371">
+      <name>ДокументОснование</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ДокументОснованиеЗарплатыКВыплате</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

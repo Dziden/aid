@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f39da8f5-e58c-4f41-b895-33cd656f91fc" extendedConfigurationObject="e0e863f9-8c16-453e-b505-f9511b4e4e53">
+  <producedTypes>
+    <objectType typeId="69291a12-6fe0-456c-9d79-7a79ed2c542e" valueTypeId="da9064a0-25eb-44dc-bb41-60596230c97d"/>
+    <refType typeId="4b980b62-0947-4d3f-af57-3a4b03687978" valueTypeId="2484ee00-2606-43c6-bc9a-0fb7be0ca7e7"/>
+    <selectionType typeId="b26a4040-286c-4584-a727-45c4abdef7d4" valueTypeId="f6059d0d-456a-4251-ad18-ce987da41089"/>
+    <listType typeId="39fcee2e-c5e0-42f4-b3ea-a1253a8c2929" valueTypeId="f27c3167-bce3-49e0-bd6c-ac79c0563f3c"/>
+    <managerType typeId="3972d19a-c153-47ad-bfa7-35506e440746" valueTypeId="808ad4cc-a6c1-454e-a6e7-0e9ada06654c"/>
+  </producedTypes>
+  <name>КонтактныеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <tabularSections uuid="ffffb438-8d22-4efd-b422-35313e418398" extendedConfigurationObject="71a9292b-de1d-4031-885c-2e4c37e8bbd4">
+    <producedTypes>
+      <objectType typeId="a9313d14-e227-4a1a-b258-3c35bfe0483c" valueTypeId="4dc03022-9eb1-4619-9539-1ed654e9e011"/>
+      <rowType typeId="3835079f-194c-4bf1-b2b1-c22301d31fd4" valueTypeId="451594ab-aedb-4377-a821-2f6b408707d4"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="1dda81ae-d7dd-47b4-84ec-70c2b93f6fb3" extendedConfigurationObject="8ca88fe5-8e2c-4359-a5eb-402ef5adae4a">
+      <name>Представление</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>500</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="e30937ef-ed25-4449-b41a-ed16420c3019" extendedConfigurationObject="7e254f08-d504-4ee1-ba4e-351e0243d7cd">
+      <name>Вид</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ВидыКонтактнойИнформации</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="cb50968c-0f75-4b4a-9733-741c8c05106f" extendedConfigurationObject="8d784464-4d4f-4406-b046-ac9a898755a8">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

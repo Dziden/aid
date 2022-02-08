@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2fff781-a961-4d08-9e81-cd0f02555426">
+  <producedTypes>
+    <refType typeId="96a4d70e-0643-44ee-97f3-d922f5150382" valueTypeId="ded3795a-2752-4c5c-9076-27ba1683ec55"/>
+    <listType typeId="d7edc3fb-7ef3-4032-9e23-4d2e5ce0618d" valueTypeId="009494d6-8fe9-4f32-b965-2bada3c3e9ec"/>
+    <managerType typeId="0e70319e-1011-4e17-8d41-7ba6bda1c0d8" valueTypeId="3454a36c-9cdd-425c-b73d-8c8a3c93be07"/>
+  </producedTypes>
+  <name>Аид_ТипыСобытийОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аид типы событий оповещений</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Notification event types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2ad59375-4fe3-4577-8bb8-e0b65c4b5c6d">
+    <name>ПоступлениеОплатыОтКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление оплаты от клиента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer payment receipt</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46758bb6-4615-413e-82aa-a7a662017bd6">
+    <name>ПросроченнаяЗадолженность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выявление просроченной задолженности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Overdue debt identification</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3d2a836-4b17-4577-be34-13b6ec593077">
+    <name>ПлановыеПлатежи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приближение плановой оплаты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Upcoming planned payment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b2e3205-f5b5-4846-b805-8f4144a0593e">
+    <name>ПлановыеОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приближение плановой отгрузки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Upcoming planned shipment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3fd58b2a-868b-479d-82e2-7e42529a888b">
+    <name>ИзменениеСостоянияЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение состояния заказа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order status change</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="931a45d0-4538-4a62-892a-be9447d24977">
+    <name>НачислениеБонусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисление бонусов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Bonus accrual</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a11377ab-4e86-4cb9-9405-c92247f01188">
+    <name>СписаниеБонусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание бонусов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Redeem bonuses</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de5f6a38-5b8e-4cc1-a6cd-6ecc89f613c2">
+    <name>ВыпискаСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выписка счета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Account statement</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26d14390-1201-4d1d-9e81-7e1add89cf3b">
+    <name>ИзменениеСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение счета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Proforma invoice change</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="916b676f-091a-4d3c-8d42-6c14aa616510">
+    <name>АннулированиеСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аннулирование счета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Proforma invoice cancellation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90f857a3-3bd7-42b7-af07-79307ae34df0">
+    <name>ОкончаниеОпроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напоминание об окончании опроса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Survey end reminder</value>
+    </synonym>
+  </enumValues>
+  <templates uuid="4eacdfad-3db5-43dc-b789-0299d98a2528">
+    <name>ПоздравлениеСДнемРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поздравление с днем рождения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Happy birthday wishes</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="dd814735-90df-4f68-8beb-74a095b736e9">
+    <name>НачислениеБонусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисление бонусов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Bonus accrual</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="a66c9e62-aed5-462e-917e-2a2367c659d5">
+    <name>ИзменениеСостоянияЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение состояния заказа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order status change</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="b82fac14-06f1-4a84-950a-d5eeabeac717">
+    <name>ВыпискаСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выписка счета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Account statement</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="aef4954d-274a-4383-a85e-df69f095b05e">
+    <name>АннулированиеСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аннулирование счета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Proforma invoice cancellation</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="6a3ebdfd-3994-435e-b46c-4e9e8e8a47e7">
+    <name>ИзменениеСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение счета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Proforma invoice change</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="f1d642f7-1e24-4c17-b951-8a5261a9e081">
+    <name>СписаниеБонусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание бонусов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Redeem bonuses</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="ac97eb16-99d8-41ac-ae6b-e2a8683cede8">
+    <name>ПросроченнаяЗадолженность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просроченная задолженность</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Overdue debt</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="d0a17a51-5b68-4798-9a17-5429f6d5ba24">
+    <name>ПлановыеПлатежи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановые платежи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scheduled payments</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="54cbd4fc-8790-4cf0-a89d-696d7a58bded">
+    <name>ПоступлениеОплатыОтКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление оплаты от клиента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer payment receipt</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="8134501c-d1b3-4246-8102-15c0f2deb776">
+    <name>ПлановыеОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановые отгрузки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Planned shipments</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="a8341442-3e58-4c7a-9679-d0375012954a">
+    <name>ОкончаниеОпроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание опроса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Survey end</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Enum>

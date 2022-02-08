@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="20142617-8f10-4c8c-8c2e-45cead0667bb" extendedConfigurationObject="e38925fb-25d2-4ecc-a58b-3d32346b67b4">
+  <producedTypes>
+    <objectType typeId="1b01e849-e43a-4354-afe7-2d37be69d979" valueTypeId="f0b3a2b5-c334-4631-8aa8-2fd1ab113830"/>
+    <refType typeId="9dad9852-9d07-4fc1-824b-07e7f5572c08" valueTypeId="813f98ee-4f8f-459c-9bb1-142bc707bf49"/>
+    <selectionType typeId="a55cc49e-a6a1-4326-b444-35d96fb5d79c" valueTypeId="e1134294-f11d-45f9-8c98-cebc022f7728"/>
+    <listType typeId="df16ec2e-ade5-4171-983c-6d0c6c940a96" valueTypeId="6dcd78a7-2c5f-4a25-a7b3-b8102108127e"/>
+    <managerType typeId="a0843636-3ba3-418b-aeed-d1fb1d45d70d" valueTypeId="75c6239b-766d-453c-959e-5adcd7ea754c"/>
+  </producedTypes>
+  <name>РозничнаяПродажа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="803c5428-f188-4547-b950-49933693610c" extendedConfigurationObject="40dd3b06-6d4e-427e-a183-578e501a42dc">
+    <name>ОтчетОРозничныхПродажах</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ОтчетОРозничныхПродажах</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="c32faf3f-8bc9-4b73-92bc-8d6894b1c6fd" extendedConfigurationObject="d9cc6e97-4d5b-4351-82ab-ca44976c8e37">
+    <name>Основание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.РозничнаяПродажа</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="871a75a8-c1cd-49fb-8cd2-ca770016e39b" extendedConfigurationObject="bfdfc0bb-db5d-44b9-bb70-3de039de7c74">
+    <name>СчетНаОплатуПокупателю</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.СчетНаОплатуПокупателю</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

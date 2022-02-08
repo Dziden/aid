@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="007d28b2-0d17-4f90-bedd-8cd7f08e2bd0">
+  <producedTypes>
+    <selectionType typeId="63b2a8ad-0108-4e17-8b85-91dd429dc2d2" valueTypeId="2b3ae46a-49c9-4a6e-a2d8-18594272dae0"/>
+    <listType typeId="f8f3371d-61b4-4db1-a9fa-f1423658a74a" valueTypeId="9bb21117-75a1-429f-ba74-108812b4ab88"/>
+    <managerType typeId="22ee7a64-452b-485f-839c-296cd125c963" valueTypeId="69b07985-0b1a-4c29-b9ce-95342ea275e9"/>
+    <recordSetType typeId="ecfe0262-ad12-4193-98c1-a6eb77a96cda" valueTypeId="3885b20b-501a-403a-86e2-be8b1b679c17"/>
+    <recordKeyType typeId="2d201bae-b056-4204-adb6-fcbf882490dc" valueTypeId="b097989f-b93f-46c9-81f8-abb12edf9d5e"/>
+    <recordType typeId="f9d89e9e-7cd3-4c5b-a4dd-15fb5ea5a59d" valueTypeId="b20f99dd-6cae-4744-94dd-37fef1b49df4"/>
+    <recordManagerType typeId="983a7c82-ecf3-4459-ab50-08cd6964bfaf" valueTypeId="ed15ecfb-8a08-48ca-b49e-863f7de0e10a"/>
+  </producedTypes>
+  <name>Аид_ДатаАктуальностиДЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата актуальности ДЗ (АИД)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9e916020-ed60-495e-80c7-8fbf477a18fd">
+    <name>ДатаАктуальностиДЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата актуальности ДЗ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f9565dc6-9bc4-403d-847d-a73bc99a6d8d">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a22e455c-a788-49ca-a7b4-c184f75e9def" extendedConfigurationObject="1f83386b-ff3c-436e-afbf-41068ff99e69">
+  <producedTypes>
+    <objectType typeId="e4624234-f47a-4946-84cb-cbe8ebf72fbc" valueTypeId="b021864c-cb6b-45d5-afa7-529ffbf2f5f0"/>
+    <refType typeId="d40178b4-d78c-4d71-bec0-9d7768284541" valueTypeId="52c63a8a-5ba5-4b9d-84a6-5c2907d086b6"/>
+    <selectionType typeId="bb7ca495-189c-4683-9810-c1a55e6107c2" valueTypeId="750abdee-effc-46a3-b222-ffe743ef903c"/>
+    <listType typeId="f31ee9cd-5752-41da-a59b-defe4d4851de" valueTypeId="516c5346-6f82-430e-9131-19e564dd6d29"/>
+    <managerType typeId="3a123100-b9dc-4f28-86eb-9089abab5a14" valueTypeId="6ccf9b88-9ce1-4420-8ca9-0dd7951dcc15"/>
+  </producedTypes>
+  <name>КодыОперацийРаздела7ДекларацииПоНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

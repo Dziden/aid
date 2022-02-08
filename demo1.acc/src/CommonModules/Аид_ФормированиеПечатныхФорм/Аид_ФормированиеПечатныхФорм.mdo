@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b019ed1f-68cf-4ae9-9ea0-2d3bb33cf72f">
+  <name>Аид_ФормированиеПечатныхФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аид формирование печатных форм</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Print form generation</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9963befc-1134-4244-a414-89b5df5d56a9" extendedConfigurationObject="51b9a2d4-bd53-4f40-824e-e3b4e323279e">
+  <producedTypes>
+    <objectType typeId="6505a781-3f13-4680-8a70-cac22d438a62" valueTypeId="4f2023e6-47de-44b6-96ca-bd84af3a7582"/>
+    <refType typeId="31afac1a-1fe2-4ee9-8ed8-0716599abe45" valueTypeId="ebad632c-9dec-4b15-8ae8-8837f64546f9"/>
+    <selectionType typeId="ad9ba13b-d808-4cac-9956-822fe33eb885" valueTypeId="95cc463e-1196-41bf-9419-c795af07b161"/>
+    <listType typeId="52cf8ad5-d0ca-43fb-bc9e-bd10517002c0" valueTypeId="c1ea8375-7116-47db-b096-14dc74bb8064"/>
+    <managerType typeId="693785b1-d8ae-469b-965f-daa456e3ff07" valueTypeId="64cccd04-f8b1-4c26-85be-f49e2770b04e"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="66648372-9d26-4f27-94e7-f0637aa71572" extendedConfigurationObject="0a7fcfed-5717-4d55-8975-5701eae7eb00">
+    <name>ОсновноеКонтактноеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КонтактныеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="e114a65c-3e1d-4fd8-b7fc-b1ed1dafb5e1">
+    <name>Аид_СтатусКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус платежной дисциплины (АИД)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Аид_СтатусыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a9073ab-672f-4199-844b-dc6023655658">
+    <name>Аид_ЧасовойПояс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовой пояс (АИД)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bf51f159-33dc-44d0-bafc-fdf8c69a88bd">
+    <name>Аид_ДругойЧасовойПояс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другой часовой пояс (АИД)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="e2fedcde-2851-45ac-ae7c-26f6bf18db7c" extendedConfigurationObject="1f7a6d90-e1f2-4582-90f0-cfdef6d12cac">
+    <producedTypes>
+      <objectType typeId="751fe9a7-d772-497e-86de-9c2f8b4e0593" valueTypeId="67f32769-6bed-413d-a821-098d8717aabd"/>
+      <rowType typeId="ceae4edd-b8f8-4601-a3c6-bad85c7e7790" valueTypeId="a409e41e-4760-49b8-9246-6935fcc712fc"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="85fff8ac-e2fc-4a49-828f-3e4b2282ebb5" extendedConfigurationObject="15cff28b-5c4c-4e8a-a561-b2d68021071b">
+      <name>Представление</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>500</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="418b8478-a11e-483d-9e65-fa9b882fcfb6" extendedConfigurationObject="dc2d99d0-72f0-435d-9716-43c1b3c0bcf6">
+      <name>Вид</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ВидыКонтактнойИнформации</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e5293f7a-8c05-46d2-b1d8-8025f47be7bc" extendedConfigurationObject="41083788-dfa5-4e2f-92d2-cac6bf94997c">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

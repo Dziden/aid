@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7a31b47f-3d52-42cc-b118-6599f16b0385" extendedConfigurationObject="12fee7cf-e9d1-47a1-96b7-81b3ff83ed3d">
+  <producedTypes>
+    <objectType typeId="bd755b21-0035-40d3-8711-ecc288879067" valueTypeId="23503458-4439-4adb-9734-101d86f02070"/>
+    <refType typeId="6ba389b3-2047-4983-8a61-35bd6cc6265d" valueTypeId="9e798506-d0e9-4808-b1c8-a5695201d249"/>
+    <selectionType typeId="427cff38-20d9-45da-a70d-c2e65de2f91e" valueTypeId="2bac8aec-b11e-4acb-9e0d-047ca6759d87"/>
+    <listType typeId="76d5f4bd-6bdf-4e89-ae8f-4dc4207d91a2" valueTypeId="06909157-d96a-4d94-8a70-d686813a9e94"/>
+    <managerType typeId="3e14f080-f42d-46cd-97a3-6c134fb1434f" valueTypeId="2ba92365-857e-4e8b-991a-3091eb4f22a8"/>
+  </producedTypes>
+  <name>ДепонированиеЗарплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="da7210b6-6fe3-4d49-98af-07da5e96e6ef" extendedConfigurationObject="9654a389-ba39-4aa8-9634-b628b1216bd2">
+    <name>Ведомость</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

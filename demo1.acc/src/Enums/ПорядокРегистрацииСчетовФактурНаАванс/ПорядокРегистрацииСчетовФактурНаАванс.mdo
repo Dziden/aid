@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="141cdd31-bdfb-4366-a108-bd246bbe541f" extendedConfigurationObject="9bfeba25-b7f2-47d2-a092-b9ea51bc3cf7">
+  <producedTypes>
+    <refType typeId="c950e8b9-47c2-4271-8737-687112fe8941" valueTypeId="7ef0533e-e21b-4290-b0b5-1960b9cdbf54"/>
+    <listType typeId="b5a0b57f-3078-40fc-b8b8-57f4cf88d14f" valueTypeId="14d7df71-7d8e-4054-93db-61adfd445dfc"/>
+    <managerType typeId="220c603c-02a0-4135-9907-c509f33c88ec" valueTypeId="36910ae3-de14-47f1-a9f4-bb29935c9652"/>
+  </producedTypes>
+  <name>ПорядокРегистрацииСчетовФактурНаАванс</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="6598d7e2-7630-41ae-9c48-9d2724675664" extendedConfigurationObject="6a220803-44e2-40f5-89b5-22f07995ccf8">
+    <name>НаВсеАвансы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="440115dd-35ff-4db1-b3be-37d82c00332f" extendedConfigurationObject="ec2b57ad-eb7e-4fd6-bafc-a57189de75dd">
+    <name>КромеЗачтенныхВТечениеПятиДней</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="524debd1-a1af-4fa3-b140-5c364b84a6e4" extendedConfigurationObject="f15e4c54-0c5d-48b7-9e0c-55ad58c1d56f">
+    <name>КромеЗачтенныхВТечениеМесяца</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="6bb1c9bd-dd04-4a46-a55e-3d8d583823f6" extendedConfigurationObject="4f89457f-3b27-4cd8-aedf-630d575f203b">
+    <name>КромеЗачтенныхВТечениеНалоговогоПериода</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="2a2c6841-df1e-4d93-8ff7-703fb1d832df" extendedConfigurationObject="e2481f1c-3e01-4a41-b65a-0eaad56cb444">
+    <name>НеРегистрироватьСчетаФактурыНаАвансы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

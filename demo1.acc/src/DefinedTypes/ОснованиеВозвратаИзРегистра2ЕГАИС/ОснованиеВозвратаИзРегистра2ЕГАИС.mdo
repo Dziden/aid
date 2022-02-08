@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2d8fa232-f53d-4c71-b9aa-49dbfffb6424" extendedConfigurationObject="aaa2c475-1a37-43fa-a499-c37b0c6a1dd5">
+  <producedTypes>
+    <containerType typeId="9b44c1f6-4fe8-4834-8436-6c831a4d7ace" valueTypeId="2ac94e0a-5d95-4c04-be63-af65bfc72c09"/>
+  </producedTypes>
+  <name>ОснованиеВозвратаИзРегистра2ЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

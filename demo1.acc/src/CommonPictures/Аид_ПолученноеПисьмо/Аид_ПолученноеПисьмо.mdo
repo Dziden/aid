@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfa6b7e3-1f4d-4b31-bfd1-c34b199e70bc">
+  <name>Аид_ПолученноеПисьмо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полученное письмо (АИД)</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

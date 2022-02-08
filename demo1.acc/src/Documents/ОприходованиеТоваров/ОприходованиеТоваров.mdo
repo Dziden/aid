@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="737ee80f-725d-494e-8958-21c72db61e0d" extendedConfigurationObject="a948bd24-a97e-40fc-af42-74e861b4ef2d">
+  <producedTypes>
+    <objectType typeId="6c9d98d8-4f8d-42d7-8572-79993b80c4a1" valueTypeId="55ca8c46-4a26-45ff-b777-d08257e95b1c"/>
+    <refType typeId="f0f1871b-4490-46bd-868e-21e3d2853721" valueTypeId="9184b666-d2a9-40ec-af6c-68182bab06c7"/>
+    <selectionType typeId="c5dcb9bf-ae33-4b20-8eb2-7ba826b94a86" valueTypeId="19bd8fbe-9389-4bb5-923d-0f999ad13df4"/>
+    <listType typeId="76a73b3f-d0eb-4635-857d-a46095c4f63b" valueTypeId="06707631-3520-457c-827c-67a0c4590440"/>
+    <managerType typeId="0cfd3195-8d93-431e-b563-44e2656f7f4e" valueTypeId="fd50ff5f-4a02-45fb-9154-15dc15aa9d39"/>
+  </producedTypes>
+  <name>ОприходованиеТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="cb0caa45-ea74-4313-9a14-bc02e4616df0" extendedConfigurationObject="10d4b326-7fab-4a45-92f2-ba4304828d75">
+    <name>ИнвентаризацияТоваровНаСкладе</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ИнвентаризацияТоваровНаСкладе</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

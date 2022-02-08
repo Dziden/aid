@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88077788-a26a-4bcc-b236-95dab716516f">
+  <name>Аид_ОтправкаSMSЧерезМТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка SMS через МТС (АИД)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

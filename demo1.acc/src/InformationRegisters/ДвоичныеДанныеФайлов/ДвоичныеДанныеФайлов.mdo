@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="61bc1edd-c82e-4433-9c97-bfaad1705752" extendedConfigurationObject="cb2e92a6-6908-4c74-89ba-2ecb49512cb5">
+  <producedTypes>
+    <selectionType typeId="8e7fe3ed-612d-45f3-8778-050d9988f915" valueTypeId="785512d2-5b59-4407-980a-cfaf91a8c448"/>
+    <listType typeId="0616523d-6ff1-4cce-9532-3d328b976747" valueTypeId="7cf12a9f-e038-47e4-979e-2cb6920f6a5a"/>
+    <managerType typeId="dc2b7aa2-c75f-4d19-b76c-8097bd69d9e5" valueTypeId="c65967fc-0cb4-44e5-8bfd-0e0258793421"/>
+    <recordSetType typeId="7745e063-2872-4d48-93ee-6d2337118e16" valueTypeId="99ea75d2-b660-4962-8968-ef84eaada301"/>
+    <recordKeyType typeId="a05278d3-353e-4f50-9c6a-db44765dabed" valueTypeId="6c5e047c-f8ad-4646-b426-808106b8e39e"/>
+    <recordType typeId="3693b654-cf2a-440c-a80e-941eca282c69" valueTypeId="1f8929d3-c12b-4b21-bea3-769c7faeb201"/>
+    <recordManagerType typeId="224f30c2-18cf-4cb6-81fa-373a7fea6153" valueTypeId="cd66f698-90c3-487b-bf84-b831935d941a"/>
+  </producedTypes>
+  <name>ДвоичныеДанныеФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="0fcf16a0-a7ca-446c-8d30-0066d5666e82" extendedConfigurationObject="55e47901-c79c-41c5-9d7f-6b6846ed2782">
+    <name>Файл</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ПрисоединенныйФайл</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

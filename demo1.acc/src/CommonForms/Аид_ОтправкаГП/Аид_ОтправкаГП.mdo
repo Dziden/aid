@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c78dc59a-b875-45e2-b1a2-8d8588c4657b">
+  <name>Аид_ОтправкаГП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка голосовой почты (АИД)</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

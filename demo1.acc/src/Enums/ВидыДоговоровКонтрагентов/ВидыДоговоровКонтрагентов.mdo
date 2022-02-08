@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="89396bcd-e512-471a-9f04-19b42de2b1a9" extendedConfigurationObject="e15b40d3-747a-4516-bd43-469db8e9da3b">
+  <producedTypes>
+    <refType typeId="538acede-1559-4b87-8ed7-7850136b448c" valueTypeId="00b6dba9-6dfa-4fcd-9bfc-716f565178eb"/>
+    <listType typeId="61d8798c-cd45-4b7c-a0e2-53fc7eabc4eb" valueTypeId="785b152d-f138-43eb-9c3c-6b5108753fed"/>
+    <managerType typeId="74940846-56a9-4915-a07b-a6359ca87cb0" valueTypeId="fc04d5be-24ad-42a0-b8c4-eaa6905f8fe1"/>
+  </producedTypes>
+  <name>ВидыДоговоровКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

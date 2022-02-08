@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="35ca0d78-8071-4692-8310-d8fd4f3837f9" extendedConfigurationObject="cf24a800-f13a-494e-98b7-6a588aff1cca">
+  <producedTypes>
+    <containerType typeId="5c0ca159-9cf9-4bc0-b1e3-27b0b57e424e" valueTypeId="689d70c1-2eaa-44d2-94dd-0a4b5a3d10b4"/>
+  </producedTypes>
+  <name>ОснованиеПроизводственнаяОперацияВЕТИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

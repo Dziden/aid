@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b97e860d-c598-41af-8bb9-3158dc3ffbfb" extendedConfigurationObject="0ecb08b7-1157-46e4-bb42-c2ee0dc12fa6">
+  <producedTypes>
+    <objectType typeId="47a89aeb-e28c-4aff-9fb5-20ac2eebc2da" valueTypeId="ccb9d9ae-0668-4be0-84c2-95e5cd45c11f"/>
+    <refType typeId="c42acb12-5576-4c56-b699-ca4ccc1821dc" valueTypeId="0be5fda9-9336-488e-ac17-eaa521cfe9f7"/>
+    <selectionType typeId="110704f7-c241-4de0-b7fa-a5c72df34bbe" valueTypeId="63b8791e-b61c-42a2-9e1a-2ecb253f0af3"/>
+    <listType typeId="1139b933-f145-4440-a570-251673666435" valueTypeId="99035628-e48c-451b-8303-e6fe15188319"/>
+    <managerType typeId="4fd98d7a-e3d2-4b61-be72-869cd58a67e9" valueTypeId="46d87a69-2338-457c-8a01-31cbb3eb5de4"/>
+  </producedTypes>
+  <name>УстановкаЦенНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

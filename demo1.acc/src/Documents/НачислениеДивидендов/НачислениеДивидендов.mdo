@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a60caaa9-4283-45c1-b7c0-ee788072ecc1" extendedConfigurationObject="ce7dd70f-b672-4b58-9210-0f9b6d4f2b40">
+  <producedTypes>
+    <objectType typeId="221cb809-3e27-4faf-b2a1-a0129547e97c" valueTypeId="8d83e130-f358-4751-a183-f526e0c160c5"/>
+    <refType typeId="eb5e501d-7e94-471b-aa36-a3e5b5e7032e" valueTypeId="b878daa6-b106-424d-9a05-86e9cc788f0c"/>
+    <selectionType typeId="2b8fbe6c-6bfa-4f8c-af02-9fe213374d87" valueTypeId="fa2ebad6-be0a-4209-8f46-12309172923b"/>
+    <listType typeId="d339e4ee-c67d-41a8-9ab5-59781f11254d" valueTypeId="d340f6a7-22e9-48ee-a812-8c65ba1c7bba"/>
+    <managerType typeId="0ac4bcb5-a5f4-4622-8788-5872a84147e4" valueTypeId="ddb4c2f2-c552-40cd-9fe0-50ab2907e8ba"/>
+  </producedTypes>
+  <name>НачислениеДивидендов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

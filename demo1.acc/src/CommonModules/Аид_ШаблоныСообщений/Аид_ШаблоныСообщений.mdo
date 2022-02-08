@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52653ebd-6590-4473-80ab-152ae9fda19c">
+  <name>Аид_ШаблоныСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аид шаблоны сообщений</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Message templates</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

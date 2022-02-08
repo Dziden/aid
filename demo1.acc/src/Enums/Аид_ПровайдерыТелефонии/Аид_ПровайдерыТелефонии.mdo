@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d50815f4-b55f-453a-bed3-10c132026ef7">
+  <producedTypes>
+    <refType typeId="4432c45e-a9a2-45a5-954e-4211a7b62c37" valueTypeId="284e326e-9ed6-4034-8252-715aaa4ecafc"/>
+    <listType typeId="17d88f98-8b41-402a-bf0a-7baaf65c2b05" valueTypeId="70e27fe3-4176-465d-9de8-8b646cc1e634"/>
+    <managerType typeId="7e65287a-3564-4660-8f75-2fb25ad635bc" valueTypeId="436dddc8-b7c4-4a53-86cf-aad7875cfa6b"/>
+  </producedTypes>
+  <name>Аид_ПровайдерыТелефонии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Провайдеры телефонии (АИД)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="365cdd1b-901e-4405-b197-ad883f88b36e">
+    <name>Фирма1С_гдЯндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Голосовой движок от Яндекса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08029f99-27bc-435e-8d7b-db19df681be3">
+    <name>Фирма1С_гд1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Голосовой движок стандартный (рекомендуется)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b21d8221-bd6f-4bb7-9a7e-aeb80a94f166">
+    <name>VoiceAnnounce</name>
+    <synonym>
+      <key>ru</key>
+      <value>Voice announce</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3aead586-3253-4f3f-a728-9b8a7fae7cc1">
+    <name>Мужской</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мужской</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25960566-4358-4344-aed6-d84722036c47">
+    <name>Женский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Женский</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

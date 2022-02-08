@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6e72f9f-d845-4395-82f4-66fd36a6cfdf">
+  <name>Аид_ОтправкаSMSЧерезБилайн</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка SMS через билайн (АИД)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

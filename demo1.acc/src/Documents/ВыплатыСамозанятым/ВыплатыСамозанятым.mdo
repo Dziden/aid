@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="001fe4f6-f622-4b41-8b25-2842b3936ac2" extendedConfigurationObject="a9a48caf-4dd0-41ab-8459-623aadc86555">
+  <producedTypes>
+    <objectType typeId="b04c6795-6a23-4bfe-8a39-c8ba694de855" valueTypeId="67d2e92d-a6c0-410f-8447-14c8769532ea"/>
+    <refType typeId="522e002e-8b94-4cc1-a60c-14e20609b497" valueTypeId="3c64bc81-fcb5-4e29-a22a-10c4888971c2"/>
+    <selectionType typeId="f3f7aeca-6045-4a9e-bb29-db75afca1c3f" valueTypeId="c9437a39-7322-4249-9162-af4aeaebe107"/>
+    <listType typeId="fc6d9111-63c6-4812-bd0b-c3e3af6fd523" valueTypeId="1edf9015-8159-4b59-b458-83f9af3ad92c"/>
+    <managerType typeId="72e31eb9-a103-4924-a578-fb1877dacca7" valueTypeId="146574bd-dcc4-4d09-af7e-2061bd6e423c"/>
+  </producedTypes>
+  <name>ВыплатыСамозанятым</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

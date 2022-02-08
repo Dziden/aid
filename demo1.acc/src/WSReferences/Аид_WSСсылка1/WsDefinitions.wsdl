@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap12bind="http://schemas.xmlsoap.org/wsdl/soap12/"
+		xmlns:soapbind="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:tns="https://msk.tab-is.ru/"
+		xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+		xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsd1="https://msk.tab-is.ru/"
+		name="АИД"
+		targetNamespace="https://msk.tab-is.ru/">
+	<types>
+		<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+				xmlns:xs1="https://msk.tab-is.ru/"
+				targetNamespace="https://msk.tab-is.ru/"
+				elementFormDefault="qualified">
+			<xs:element name="method">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Запрос"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="methodResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Options">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Запрос"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="OptionsResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GET">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Запрос"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GETResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:schema>
+	</types>
+	<message name="methodRequestMessage">
+		<part name="parameters"
+				element="tns:method"/>
+	</message>
+	<message name="methodResponseMessage">
+		<part name="parameters"
+				element="tns:methodResponse"/>
+	</message>
+	<message name="OptionsRequestMessage">
+		<part name="parameters"
+				element="tns:Options"/>
+	</message>
+	<message name="OptionsResponseMessage">
+		<part name="parameters"
+				element="tns:OptionsResponse"/>
+	</message>
+	<message name="GETRequestMessage">
+		<part name="parameters"
+				element="tns:GET"/>
+	</message>
+	<message name="GETResponseMessage">
+		<part name="parameters"
+				element="tns:GETResponse"/>
+	</message>
+	<portType name="АИДPortType">
+		<operation name="method">
+			<input name="methodRequest"
+					message="tns:methodRequestMessage"/>
+			<output name="methodResponse"
+					message="tns:methodResponseMessage"/>
+		</operation>
+		<operation name="Options">
+			<input name="OptionsRequest"
+					message="tns:OptionsRequestMessage"/>
+			<output name="OptionsResponse"
+					message="tns:OptionsResponseMessage"/>
+		</operation>
+		<operation name="GET">
+			<input name="GETRequest"
+					message="tns:GETRequestMessage"/>
+			<output name="GETResponse"
+					message="tns:GETResponseMessage"/>
+		</operation>
+	</portType>
+	<binding name="АИДSoapBinding"
+			type="tns:АИДPortType">
+		<soapbind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="method">
+			<soapbind:operation style="document"
+					soapAction="https://msk.tab-is.ru/#АИД:method"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="Options">
+			<soapbind:operation style="document"
+					soapAction="https://msk.tab-is.ru/#АИД:Options"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GET">
+			<soapbind:operation style="document"
+					soapAction="https://msk.tab-is.ru/#АИД:GET"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<binding name="АИДSoap12Binding"
+			type="tns:АИДPortType">
+		<soap12bind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="method">
+			<soap12bind:operation style="document"
+					soapAction="https://msk.tab-is.ru/#АИД:method"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="Options">
+			<soap12bind:operation style="document"
+					soapAction="https://msk.tab-is.ru/#АИД:Options"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="GET">
+			<soap12bind:operation style="document"
+					soapAction="https://msk.tab-is.ru/#АИД:GET"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="АИД">
+		<port name="АИДSoap"
+				binding="tns:АИДSoapBinding">
+			<documentation> 
+				<wsi:Claim xmlns:wsi="http://ws-i.org/schemas/conformanceClaim/"
+						conformsTo="http://ws-i.org/profiles/basic/1.1"/>
+			</documentation>
+			<soapbind:address location="https://cloud1.businesstech.store/aid_database/ws/ws1.1cws"/>
+		</port>
+		<port name="АИДSoap12"
+				binding="tns:АИДSoap12Binding">
+			<soap12bind:address location="https://cloud1.businesstech.store/aid_database/ws/ws1.1cws"/>
+		</port>
+	</service>
+</definitions>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d630e3a7-0753-4c2a-849b-c375099b97ed" extendedConfigurationObject="ce8eae05-6641-488e-9c1e-1d6632bb6142">
+  <producedTypes>
+    <objectType typeId="34fadd56-a543-4006-9554-4b12fef5f7a8" valueTypeId="80757d17-ea25-48d3-85eb-03850e4d533f"/>
+    <refType typeId="c84678ed-31c7-4b45-b010-250a46f08915" valueTypeId="f35a9f0e-60a6-4d6b-a537-2f30ea137474"/>
+    <selectionType typeId="692e90d1-725a-40c1-b76f-1ae21afeb0bb" valueTypeId="0ebccd0f-cf0f-49f4-bab3-3aab9606592a"/>
+    <listType typeId="7422d4c3-2b56-453b-9e01-3f63d6962663" valueTypeId="29ee9c93-26a4-423e-a9df-e14b4d69319e"/>
+    <managerType typeId="9cab6253-dad9-4809-a3f3-96c820b9eea0" valueTypeId="af498696-452f-4365-af14-b9a5a9c1a04a"/>
+  </producedTypes>
+  <name>УведомлениеОПеремещенииПрослеживаемыхТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="bf754620-cdc5-4f9e-958a-2473edadb994" extendedConfigurationObject="90c2f5d3-9ea9-4dab-9a78-c327e955557d">
+    <producedTypes>
+      <objectType typeId="d450edc8-4edd-4316-9016-36da9dbe6275" valueTypeId="d383adbe-9784-4ea5-b66f-1b449b09f292"/>
+      <rowType typeId="ac975e1c-65a8-4bb6-ab4c-2028f5901b88" valueTypeId="93787142-f4ef-4ecc-8890-553bad694bfb"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="80006af4-34ba-4e8e-8c0f-ef2fceb96e62" extendedConfigurationObject="1eb44d5f-8b53-4da9-a695-c37ea61d5650">
+      <name>СопроводительныйДокумент</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.СопроводительныйДокументУведомлениеОПеремещении</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

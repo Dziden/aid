@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="367a406c-62ce-4def-890e-074785ce9a69">
+  <producedTypes>
+    <refType typeId="6b7f3533-ba91-4906-aa4d-7ed84c2b46db" valueTypeId="bc213619-4a39-42af-8da9-fc46dc973aad"/>
+    <listType typeId="0c78698d-b580-42b4-a81f-272f5590296f" valueTypeId="9649e38b-11b6-43ea-b11f-a6ef0118e2c7"/>
+    <managerType typeId="f6ad1540-6a70-4bf6-8c0f-11fab632c740" valueTypeId="906058ed-d8d7-4ed9-aeb0-3279f04e525a"/>
+  </producedTypes>
+  <name>Аид_ПорядокРасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Детализация расчетов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Settlements details</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4046c47e-12c3-462b-a3ca-9ed871e9b6f9">
+    <name>ПоЗаказамНакладным</name>
+    <synonym>
+      <key>ru</key>
+      <value>По заказам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>By orders</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd1ce6c9-a6ed-4730-b878-72a69e9b38b1">
+    <name>ПоДоговорамКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>По договорам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>By contracts</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbbbbe6b-62c2-4c88-966b-cdc79d0aeb2e">
+    <name>ПоНакладным</name>
+    <synonym>
+      <key>ru</key>
+      <value>По накладным</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>By invoices</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

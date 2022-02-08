@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa934d71-c267-47d9-abda-019b52849f38">
+  <name>Аид_АвтоматизацияИнформированияДебиторов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматизация информирования дебиторов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Notifications</picture>
+  </picture>
+  <content>Catalog.Аид_СтатусыКонтрагентов</content>
+  <content>Catalog.Аид_ВидыДоговоров</content>
+  <content>Enum.Аид_ТипыСообщений</content>
+  <content>DataProcessor.Аид_ВиртуальныйМенеджер</content>
+  <content>InformationRegister.Аид_Настройки</content>
+  <content>Enum.Аид_ПровайдерыТелефонии</content>
+  <content>InformationRegister.Аид_ПравилаФормированияСобытий</content>
+  <content>InformationRegister.Аид_ЖурналСобытий</content>
+  <content>Report.Аид_ЖурналСобытий</content>
+  <content>InformationRegister.Аид_СписокСообщений</content>
+  <content>InformationRegister.Аид_НеВключатьВРассылку</content>
+  <content>CommonCommand.Аид_НужнаПомощь</content>
+  <content>Catalog.Аид_ВариантыКлассификацииЗадолженности</content>
+  <content>Catalog.Аид_ШаблоныСообщений</content>
+  <content>Report.ЗадолженностьПокупателейПоСрокамДолга</content>
+</mdclass:Subsystem>

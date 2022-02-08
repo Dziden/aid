@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a1ec3666-f311-4f37-8604-c80fc861fff5" extendedConfigurationObject="808fc4bd-d6a1-44dd-97de-50010f7b70e8">
+  <producedTypes>
+    <objectType typeId="026a3c9b-3558-4580-99b9-866c712511be" valueTypeId="465712b2-6a8c-49ce-bba8-f7e03b7ca6b4"/>
+    <managerType typeId="57caa825-0519-4406-836d-d35954f923a8" valueTypeId="9779a756-aa9a-4716-809c-42b81858ff54"/>
+  </producedTypes>
+  <name>ЗадолженностьПокупателейПоСрокамДолга</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <commands uuid="2cac4d6f-44b6-4c66-a294-f79a9a505f16" extendedConfigurationObject="0ce6907b-cc44-41b8-a23b-6b3d03e1a98e">
+    <name>ЗадолженностьПокупателейПоСрокамДолга</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <group>Checked</group>
+    </extension>
+    <group>NavigationPanelOrdinary</group>
+  </commands>
+</mdclass:Report>

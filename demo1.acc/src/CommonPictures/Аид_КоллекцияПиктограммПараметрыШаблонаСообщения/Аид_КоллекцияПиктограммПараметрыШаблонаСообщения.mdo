@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a57d7d42-7449-485e-8324-aa5ba966adac">
+  <name>Аид_КоллекцияПиктограммПараметрыШаблонаСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аид коллекция пиктограмм параметры шаблона сообщения</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Icon collection message template parameters</value>
+  </synonym>
+</mdclass:CommonPicture>

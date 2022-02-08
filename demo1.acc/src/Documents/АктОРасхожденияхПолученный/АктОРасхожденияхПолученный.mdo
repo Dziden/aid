@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ee520aee-617e-45e3-a816-bd52d4f70822" extendedConfigurationObject="e930fcd9-d7db-4476-98e7-45b342dc1c22">
+  <producedTypes>
+    <objectType typeId="fa19ba15-637a-494a-b6a6-b1e9c001e3a0" valueTypeId="d2197f94-d779-49a0-95d7-3c25e6a8d4b9"/>
+    <refType typeId="60baaeb7-64af-4d5e-a757-9181e701c4be" valueTypeId="5db31179-cb2c-482a-a62a-213cf0093be5"/>
+    <selectionType typeId="f125d97c-5eac-4c69-9757-9e16b2acda5d" valueTypeId="a4ab5899-dca2-4393-8927-9166db103161"/>
+    <listType typeId="da4e336b-0bde-4dc2-8278-88e349681076" valueTypeId="03db1c2f-9f9b-4836-8afa-07ad6bbe2407"/>
+    <managerType typeId="39e4cb7a-e8c0-4be4-b44d-503d2a32afbe" valueTypeId="a8298eb7-873b-418c-95b3-6e55bba27754"/>
+  </producedTypes>
+  <name>АктОРасхожденияхПолученный</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="9f832afb-4a80-4e1e-bed9-d287275155bb" extendedConfigurationObject="4045987f-4cb0-4d98-b782-d38d206a456d">
+    <name>ДокументРеализации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.РеализацияТоваровУслуг</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

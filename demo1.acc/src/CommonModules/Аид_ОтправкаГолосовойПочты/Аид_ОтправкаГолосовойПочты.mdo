@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46684d59-634e-479c-aa30-d0386a4ce3e6">
+  <name>Аид_ОтправкаГолосовойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка голосовой почты (АИД)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

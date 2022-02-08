@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="66ccbe4d-bb0d-4a60-b2e8-787383abb339" extendedConfigurationObject="e87a1b44-e013-486f-a342-30864315ac9e">
+  <producedTypes>
+    <objectType typeId="b1be3aca-ba85-4795-b7b9-430e5d30f47b" valueTypeId="ebc06d91-e588-460c-a00b-326154cfcf54"/>
+    <refType typeId="ec70b842-d0f1-49a2-9292-a982c01530b2" valueTypeId="3044855f-12cd-4f7b-9292-b74f94d51af1"/>
+    <selectionType typeId="eacc1d05-4ffe-46e7-8f6e-5e0399c4a9b9" valueTypeId="cfac4a87-c4c4-4c3b-a81e-7d4f2f6e2f1d"/>
+    <listType typeId="96b1c8bd-8712-49e2-9567-840a689b579e" valueTypeId="4e54921e-cdac-45b5-820d-f479a051f5dc"/>
+    <managerType typeId="0823db93-48ef-4017-9f96-81abf1fe9181" valueTypeId="12f849c9-cc8d-4b71-b6dd-4f1f88caa575"/>
+  </producedTypes>
+  <name>ПереоценкаТоваровВРознице</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="7f77e8e5-12fd-48dd-a8f7-9127b20cd40e" extendedConfigurationObject="31e99a12-31ce-4af9-9a44-fecdabf40daa">
+    <name>ДокументУстановкиЦен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.УстановкаЦенНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

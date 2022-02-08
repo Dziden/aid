@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="195f0448-7e7d-44c8-9957-ab7344338dbd" extendedConfigurationObject="487b1da7-14fb-4479-b668-bef8b00731ed">
+  <producedTypes>
+    <containerType typeId="c52e8020-f38d-4337-9b39-828a4720bf46" valueTypeId="39033daa-9bd8-41df-a7dc-5437c6a2521b"/>
+  </producedTypes>
+  <name>ОснованиеАктаПостановкиНаБалансЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

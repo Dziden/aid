@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a54602fa-609b-4fd8-9e69-79083f4b8c50">
+  <producedTypes>
+    <objectType typeId="4c57e5d2-9782-4a32-b398-68334f7b694f" valueTypeId="b12c739e-3d74-43a9-8c23-240807cc0c85"/>
+    <managerType typeId="98eb4b89-f2bb-4530-9fd9-080ff7a66648" valueTypeId="e30c1bfd-0a8f-4b7f-ac26-9158e093bae1"/>
+  </producedTypes>
+  <name>Аид_ВиртуальныйМенеджер</name>
+  <synonym>
+    <key>ru</key>
+    <value>АИД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Аид_ВиртуальныйМенеджер.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="5a524b13-7de7-4836-b7ad-63598beb470c">
+    <name>ДатаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отчета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fc96af5f-775a-4823-99de-1ea258a8f88e">
+    <name>ВариантКлассификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант классификации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аид_ВариантыКлассификацииЗадолженности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1208949e-9bb0-47bd-a1c6-966891d8ed40">
+    <name>Календарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПроизводственныеКалендари</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eea050e5-3de7-4a12-9611-c04f1b09b209">
+    <name>ДанныеОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные отчета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bd408728-2d04-44ac-97f3-ae5ae5502184">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="702e4e72-163e-45c8-8e67-addb3d73b5d4">
+    <name>ДетализацияОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детализация отчета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f08027cc-cbbe-4246-b176-423a52e6846c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fdad9d82-a749-4b8d-9226-9da0bdf6145c">
+    <name>ФормаДобавленияНовогоПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма добавления нового правила</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5f9b577d-4489-40cc-9262-0ed86669fe17">
+    <name>ФормаВводаКоличестваДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода количества дней</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0cf3952e-f614-48ac-9b4b-664249065b9e">
+    <name>ФормаНастройкиИерархииДерева</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки иерархии дерева</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c40588f7-78ae-4247-8e8c-9ff30c6483fd">
+    <name>ФормаПредварительногоПросмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма предварительного просмотра</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1603651a-e6f7-44ec-b8d8-3f1fe822e748">
+    <name>ФормаФормированияСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма формирования сообщение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2456cbed-d108-4cef-97ef-e741b34b63b1">
+    <name>ФормаДатаАктуальностиДЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата актуальности ДЗ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56df09b3-2761-418f-a63d-de790e3aa056">
+    <name>ФормаУдаленияПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма удаления правил</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="883a9d85-913a-4b77-89b9-c0899165c418">
+    <name>ФормаНастрокиВМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроки ВМ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3cd93dec-e662-4fdd-8983-7c63e4957910">
+    <name>ДанныеШаблонаСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные шаблона сообщений</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="025f0508-27f6-48e0-8db2-1d3ee0a086ae">
+    <name>Инструкция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <commands uuid="503ff6ca-d974-4c92-bcac-b4d914df1969">
+    <name>ВиртуальныйМенеджерАИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виртуальный менеджер (АИД)</value>
+    </synonym>
+    <group>CommandGroup.Аид_</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

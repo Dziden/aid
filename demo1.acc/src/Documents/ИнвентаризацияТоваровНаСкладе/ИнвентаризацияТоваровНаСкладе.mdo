@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d6345a57-c690-4712-8017-6bbb262ffd21" extendedConfigurationObject="57fa4881-8ea1-451d-92c8-7dd84266404a">
+  <producedTypes>
+    <objectType typeId="5d407604-6242-4274-981a-3b2072441e4f" valueTypeId="c5efac29-a11d-4b07-a2bd-a6abdb2d2dab"/>
+    <refType typeId="fbc9d6b5-2be1-42c3-9029-f0f39f2ad8a0" valueTypeId="1b405600-c72e-4421-8dcd-1ee9926cc3fd"/>
+    <selectionType typeId="022021fb-3053-4654-9f64-92a2e0ce2e2c" valueTypeId="498753a0-8163-4498-bd92-a8aa42774800"/>
+    <listType typeId="26eb532b-bb16-40be-bca7-9ee7435a6359" valueTypeId="c5a17fc3-943a-41b3-b1cb-92f5334865e4"/>
+    <managerType typeId="56d956f7-24d4-4d37-ab46-d43e8cb64ea0" valueTypeId="99a229d3-af56-4a45-9cc1-6fdffdee9f53"/>
+  </producedTypes>
+  <name>ИнвентаризацияТоваровНаСкладе</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba5f6d43-9f27-4cbb-bac5-6d6973862fb4">
+  <producedTypes>
+    <objectType typeId="5ac7c676-789c-4515-a904-2c15f4891ff2" valueTypeId="b2cc70bc-1ede-4c39-9f6f-a8130fcb8ed1"/>
+    <refType typeId="31dec75b-5b48-4a68-bd15-50c9291abd76" valueTypeId="a16dd94e-97c0-4adf-889e-9b59e3859da0"/>
+    <selectionType typeId="da9a8b8e-fa5d-4e4c-ba45-bb75f5b554ef" valueTypeId="9f490829-79b6-4c95-9cba-575ead5ace63"/>
+    <listType typeId="51d8104b-8a8d-46a7-9c13-e4a321022bae" valueTypeId="caa95e76-b4dd-407f-84c6-e1bd4f54ec86"/>
+    <managerType typeId="f5b9681a-cd59-44f7-b243-e019466acfef" valueTypeId="113db5ad-d2c4-43b8-ba5e-a4c44a59821e"/>
+  </producedTypes>
+  <name>Аид_ШаблоныСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны сообщений (АИД)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Message templates</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аид_ШаблоныСообщений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Аид_ШаблоныСообщений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Шаблон сообщения</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Message template</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Аид_ШаблоныСообщений.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Аид_ШаблоныСообщений.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Аид_ШаблоныСообщений.Form.Аид_ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="1e0f9aa3-f65b-48c2-91af-a298eb777de1">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автор или ответственный за шаблон сообщения</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>An author or a person responsible for the message template.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c83d2397-46ae-4660-839e-12ccdc53a344">
+    <name>ВладелецШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец шаблона</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Template owner</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет владельца контекстного шаблона</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Defines a context template owner </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca225348-4c28-43ea-be85-0ab23bd25a21">
+    <name>ВнешняяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя обработка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>External data processor</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Внешняя обработка, в которой содержится шаблон.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>External data processor containing the template</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66f9b84c-a122-4208-aaa4-6bed59086e1d">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Assignment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Назначение шаблона сообщений</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Message template assignment</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e8843e39-dc0a-4665-8e7d-86fdcaf71a18">
+    <name>Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sender</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отправитель сообщения</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Message sender</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fd5869ba-ec49-4c5a-bdd7-49aa26184590">
+    <name>ОтправлятьВТранслите</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять в транслите</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Send in transliteration</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак необходимости конвертирования текста SMS сообщения в латиницу</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether to transliterate a text message to Latin</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76cecc42-708f-49cb-9cef-ddfeec638b9f">
+    <name>ПолноеИмяТипаПараметраВводаНаОсновании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя типа параметра ввода на основании</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Full name of the input-on-basis parameter type</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное имя объекта метаданных, на основании которого по данному шаблону будут создаваться сообщения.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Full name of a metadata object, based on which messages will be created using this template.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ee8b391-a0be-4ff4-81d3-e3b5969b7795">
+    <name>ПредназначенДляSMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предназначен для SMS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Designed for text messages</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что шаблон предназначен для создания сообщений SMS.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether the template is designed for creating text messages.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="603fd546-2432-4636-ab24-ed6131b6f205">
+    <name>ПредназначенДляВводаНаОсновании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предназначен для ввода на основании</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Designed for input on basis</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что шаблон предназначен для ввода на основании. </value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether the template is designed for input on the basis.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="78de7ef7-3cab-49d5-932e-fba2f4443951">
+    <name>ПредназначенДляЭлектронныхПисем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предназначен для электронных писем</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Designed for emails</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что шаблон предназначен для создания электронных писем</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether the template is designed for creating emails.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="326a0bf7-87f3-4ae4-b12f-fc4f8f722b06">
+    <name>ТекстШаблонаSMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст шаблона SMS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Text message template text</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст, который будет использоваться в качестве шаблона сообщения SMS.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Text that will be used as a text message template.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e62fb484-114f-4e81-b6cb-9e4ebca2ff19">
+    <name>ТекстШаблонаПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст шаблона письма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Email template text</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст, который будет использоваться в качестве шаблона письма.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Text that will be used as an email template.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5a348527-c0fd-47c7-b669-3391845a1be8">
+    <name>ТекстШаблонаПисьмаHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст шаблона письма HTML</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>HTML email template text</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст, который будет использоваться в качестве шаблона письма в формате HTML.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Text that will be used as an email template in HTML format.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0cb38801-f236-4658-8207-02d4eaff848a">
+    <name>ТемаПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Subject</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст, который будет использоваться в качестве шаблона темы письма.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Text that will be used as an email subject template.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="30961c6b-d58e-4bb7-aaa5-5ad4bd8859e4">
+    <name>ТипТекстаПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип текста письма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Email text type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыРедактированияЭлектронныхПисем</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип текста письма, в котором будет подготовлено сообщение - &quot;Простой&quot; или &quot;HTML&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Email text type according to which a message will be prepared: &quot;Simple&quot; or &quot;HTML&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="75bd8fc0-2cde-4c3f-aa3b-d2d9959e1cb0">
+    <name>ТолькоДляАвтора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только для автора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>For author only</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Влияет на доступность варианта из панели отчетов:
+Флажок снят - вариант доступен всем пользователям.
+Флажок установлен - шаблон сообщения доступен только автору.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Affects availability of an option from the report panel: 
+If the check box is cleared, the option is available to all users.
+If the check box is selected, the option is available only to the author.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d435b152-943e-4b97-8e9c-2ff2750d4f53">
+    <name>ТранслитерироватьИменаФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транслитерировать имена файлов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Transliterate file names</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сформированные  печатных формы и файлы будут иметь имена, содержащие только латинские буквы и цифры, для возможности переноса между различными операционными системами. Например, файл &quot;Счет на оплату.pdf&quot; будет сохранен с именем &quot;Schet na oplaty.pdf&quot;.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Generated print forms and files get names containing only Latin letters and numbers to be able to transfer data between different operating systems. For example, the &quot;Счет на оплату.pdf&quot; file will be saved as &quot;Schet na oplaty.pdf&quot;.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24b7dd15-f773-4bd7-ac6d-604a244d23ac">
+    <name>УпаковатьВАрхив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковать в архив</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Archive</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что вложения - печатные формы должны быть упакованы в архив при отправке.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates that attached print forms are to be archived upon sending. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="815290d4-e1ed-4c24-880e-e423f2e856a1">
+    <name>ФорматВложений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат вложений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Attachment format</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Формат, в котором должны сохраняться вложения - печатные формы.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Format, in which attached print forms are to be saved.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f2004f0-dd7a-47b2-a870-c34e123e7057">
+    <name>ШаблонПоВнешнейОбработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон по внешней обработке</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>External data processor template</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак, что шаблон формируется внешней обработкой.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates that a template is generated by an external data processor.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab5f57d1-b03b-46ef-99f4-678ca0ad196a">
+    <name>ПодписьИПечать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпись и печать</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Signature and stamp</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавляет факсимильную подпись и печать в печатную форму</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Adds a facsimile signature and a stamp to the print form</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="191053d5-5c69-43ec-b0c8-086932a196f9">
+    <name>Аид_ПредназначенДляГолосовогоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предназначен для голосового сообщения (АИД)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что шаблон предназначен для создания голосового сообщения.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2998a94b-0414-45ae-9872-00728fbfce6a">
+    <name>Аид_Прощание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прощание (АИД)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4c53f202-6936-4c07-9861-6b16be41420b">
+    <producedTypes>
+      <objectType typeId="2eff7540-e383-490e-be8b-ff492ae4d635" valueTypeId="08f95742-5a28-442d-b054-4f6503b714dc"/>
+      <rowType typeId="8394e919-5107-42aa-bbbb-5f958797dcad" valueTypeId="e9c541ef-9f95-48db-bcdf-2da5c6ec83d6"/>
+    </producedTypes>
+    <name>ПечатныеФормыИВложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатные формы и вложения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Print forms and attachments</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="db0b7f7b-60e7-4c01-9753-2f7969cc739f">
+      <name>Идентификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор печатной формы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Print form ID</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e425564a-30a2-413a-86ec-f97a4cba23bf">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Name</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя выбранной печатной формы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Name of the selected print form</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="703fb8ff-140d-4cc1-a484-b5c529ee7dd8">
+    <producedTypes>
+      <objectType typeId="9da8387b-f275-40bb-a5c3-bae44cc8c8f4" valueTypeId="5a8d67bc-731c-483f-bd23-0b84056f8448"/>
+      <rowType typeId="19f2700d-a228-4ae5-983f-ab953b894639" valueTypeId="5075a97a-3262-49cc-beb4-452593f024b3"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parameters</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Параметры шаблона. Их необходимо будет указать при создании сообщения.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Template parameters. Specify them upon creating a message.</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9fba8858-f3cf-490c-a925-439d14ccaf77">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Parameter name</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя параметра шаблона.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Template parameter name.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fabc645d-75ea-400d-8a9f-cc5f4857b800">
+      <name>ТипПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип параметра</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Parameter type</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип параметра шаблона.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Template parameter type.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1df2e0b1-3228-4b79-8876-59df1a75993b">
+      <name>ПредставлениеПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление параметра</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Parameter presentation</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Представление параметра. Выступает в качестве заголовка элемента формы формы подготовки сообщения, в котором будет указываться параметр.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Parameter presentation. It is a title of an item related to the form of creating a message, in which the parameter will be specified.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="07b756ba-1a3d-41d5-9fea-434647cc67e6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="32120429-846b-4740-ba34-1183f736aa24">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3c2bdd99-dc43-432e-aa7d-d11b9024849d">
+    <name>СформироватьСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать сообщение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Generate message</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="40c28a21-2c63-44f4-814a-8bddceaa1475">
+    <name>ПроизвольныйПараметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный параметр</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Arbitrary parameter</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8f607b8b-14d9-40df-930d-45a517721f2f">
+    <name>ЗаполнитьПроизвольныеПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить произвольные параметры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Fill in arbitrary parameters</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="950897c7-d383-4264-a9db-c263a2e041f4">
+    <name>Аид_ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора (АИД)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a8e48ec3-ae1f-416b-a549-1781a837aab5">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

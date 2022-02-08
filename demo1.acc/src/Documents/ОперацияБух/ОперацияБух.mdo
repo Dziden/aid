@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="deb06e21-153b-4351-899c-c7a8630c42a0" extendedConfigurationObject="310bcfb3-5577-4190-b808-6682f4e49b2c">
+  <producedTypes>
+    <objectType typeId="f4576ae1-793b-443d-aff0-c1f3ef67477b" valueTypeId="5665f9e4-8971-4721-9024-26ea41855815"/>
+    <refType typeId="90ee0a19-343d-449e-9c04-c52898bd7b74" valueTypeId="79ece04c-4998-4850-8083-ae2b00021f88"/>
+    <selectionType typeId="13fa3287-a9c1-4415-a7ae-93d94eaf91cc" valueTypeId="2e302a98-7b20-4433-8445-80abec27d1bc"/>
+    <listType typeId="75b5bd6c-5701-4111-9c42-f1abd9df895b" valueTypeId="e734875e-7301-43a1-b75f-28b1b95b7dda"/>
+    <managerType typeId="cea80d87-0ac3-436f-a9de-ecff2675af2c" valueTypeId="f64d6047-e0e2-493f-9d7e-d50d46eccea0"/>
+  </producedTypes>
+  <name>ОперацияБух</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="83284cac-10f8-42a9-b1da-880b99cd7d30" extendedConfigurationObject="285d4c05-b261-43a2-88d7-b2975176ef9f">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

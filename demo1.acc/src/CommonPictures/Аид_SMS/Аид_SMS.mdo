@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ece1310b-ab8e-4e27-b2c6-82bb9d26e3b6">
+  <name>Аид_SMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>SMS (АИД)</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

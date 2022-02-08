@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="04342f8e-2fce-4b1f-a797-04fbacb631ce" extendedConfigurationObject="ec11342f-594f-416f-a10f-bd1bfa695c08">
+  <producedTypes>
+    <refType typeId="d7ab56dd-c335-4205-81c1-9865fdde9879" valueTypeId="660e682a-24a5-434a-b5a6-bdf82d5007c2"/>
+    <listType typeId="15648909-e250-4a0e-a2e9-6a38e7a366c9" valueTypeId="93128f1a-589f-40a1-b08d-e0afb87ae6fd"/>
+    <managerType typeId="2e49ac5a-0cf6-46e9-9267-c1f953be716c" valueTypeId="01fe7b7f-1a91-447c-88ec-b6aff7feb24f"/>
+  </producedTypes>
+  <name>СпособыУстановкиКурсаВалюты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="138f6c69-7c7a-4013-a92f-88ff3de96f4c" extendedConfigurationObject="c9ab3890-6d16-431f-ab2b-b5058e6202a4">
+    <name>НаценкаНаКурсДругойВалюты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="9aa73ef5-9681-47db-8001-4312ac5ea527" extendedConfigurationObject="74f03c35-5da0-406e-a938-e8e5d49975ef">
+    <name>РучнойВвод</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="c704e17a-7213-45c0-8c29-c43bf6d28ae6" extendedConfigurationObject="31c3ac44-204e-43fd-bca3-fd18fa091c58">
+    <name>ЗагрузкаИзИнтернета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="64fecb6a-f19b-4af9-9c9f-01ecebce30f7" extendedConfigurationObject="5ee9eed7-3c6c-4264-ab9a-6f24f9c80598">
+    <name>РасчетПоФормуле</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

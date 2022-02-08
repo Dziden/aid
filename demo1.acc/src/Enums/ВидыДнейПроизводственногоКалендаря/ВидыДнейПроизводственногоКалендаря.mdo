@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d129803e-8952-4504-8c94-24379bb0da13" extendedConfigurationObject="9f7290dd-19f4-4163-9795-fe562e84f06d">
+  <producedTypes>
+    <refType typeId="f9c03e83-226e-4d38-b840-ab3637d0e01c" valueTypeId="f626f249-2daa-4ebc-bd63-d02e271b5f2a"/>
+    <listType typeId="bad2291a-233d-4ea0-85cb-2c806aef9cc6" valueTypeId="7180cf7f-bbf6-46bd-9f84-124b82d7c736"/>
+    <managerType typeId="fefd2e57-9e0c-40a3-9ca3-36c655f206e2" valueTypeId="141cd08f-63e3-4a90-9c15-362cb95d32fe"/>
+  </producedTypes>
+  <name>ВидыДнейПроизводственногоКалендаря</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="496addab-f875-4e91-a4bc-533e63884e82" extendedConfigurationObject="c3b5c81f-b787-4f63-8cba-79def0921477">
+    <name>Рабочий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="af9531cb-9a85-4b7b-8aea-050057eaf93b" extendedConfigurationObject="c8b0a1be-97c6-4a16-b1dd-31901ac61cdc">
+    <name>Предпраздничный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

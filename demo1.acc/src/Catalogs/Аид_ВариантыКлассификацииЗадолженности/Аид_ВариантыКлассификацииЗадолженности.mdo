@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94eda39a-5e93-4a06-b14a-0e4b513d7054">
+  <producedTypes>
+    <objectType typeId="fc5c457c-0066-497b-9e39-f54808a866ba" valueTypeId="60b0c119-11e6-440a-9f10-d540fa222f33"/>
+    <refType typeId="e93f6336-3a21-4577-8b59-69efa12b293d" valueTypeId="bccd9724-acbb-426b-b97b-75cbecb2e104"/>
+    <selectionType typeId="a1aa697d-3a23-4c56-9bb0-1cc52de78beb" valueTypeId="8c5f6958-eb7d-4167-9d33-ab5ec618bccf"/>
+    <listType typeId="0b14c972-fb13-4553-ad60-f9917e40e9de" valueTypeId="e6f9fe58-6b1b-483b-99aa-432a15a79459"/>
+    <managerType typeId="750cf9ea-8ea9-4852-95bf-1c4927c018da" valueTypeId="f9cd4ae6-7a26-474d-af34-48e140960851"/>
+  </producedTypes>
+  <name>Аид_ВариантыКлассификацииЗадолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аид варианты классификации задолженности</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Debt classification options</value>
+  </synonym>
+  <inputByString>Catalog.Аид_ВариантыКлассификацииЗадолженности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Аид_ВариантыКлассификацииЗадолженности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Классификация задолженности</value>
+  </listPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Debt classification</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Варианты классификации задолженности</value>
+  </extendedListPresentation>
+  <extendedListPresentation>
+    <key>en</key>
+    <value>Debt classification options</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Аид_ВариантыКлассификацииЗадолженности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Аид_ВариантыКлассификацииЗадолженности.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="8c4c8541-68a6-45cb-8ce0-d32a2abf1351">
+    <name>Календарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Calendar</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПроизводственныеКалендари</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Производственный календарь, по которому считается даты возникновения просроченной задолженности.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Business calendar dates of overdue debt incurrence are calculated by. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>910e3d35-8032-49e0-bc8d-b920aaf30aaa.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="49d0cbc6-c206-49d1-b6bc-e21d5a3f412f">
+    <producedTypes>
+      <objectType typeId="ba749312-48bc-415e-87f2-6bf6d62b61cc" valueTypeId="fdb24038-cf6a-456c-8460-3162dd4a1481"/>
+      <rowType typeId="593e6a71-ece0-44ed-a2b6-35092d84c9a7" valueTypeId="f0ae68a0-239b-4f25-9488-77c3fa988220"/>
+    </producedTypes>
+    <name>Интервалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервалы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Intervals</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d8414dc2-74b5-49ef-9e73-be8d4ff4782b">
+      <name>НижняяГраницаИнтервала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Нижняя граница интервала</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Lower bound of interval</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Нижняя граница интервала в днях.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Lower bound of interval in days.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="efb61ec7-87ce-4fa4-be65-df279f7f68f6">
+      <name>ВерхняяГраницаИнтервала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Верхняя граница интервала</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Upper bound of interval</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Верхняя граница интервала в днях.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Upper bound of the interval in days.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="03734bfe-bfb2-4a63-a42e-6e9bacf8f8a0">
+      <name>НаименованиеИнтервала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование интервала</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Interval name</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование интервала для представления в отчетах.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Interval name for presentation in reports.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9ff1166f-ae63-4580-931b-6134df7244d1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="db9dac5c-3c5a-4d92-a61c-e927b00e5b80">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4c3b5ce8-029a-4b2b-b890-1442fbbbdea1">
+    <name>ВариантыКлассификацииЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Варианты классификации задолженности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Debt classification options</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

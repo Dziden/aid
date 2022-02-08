@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2cb49505-8c7c-4416-8116-22bb599745a0" extendedConfigurationObject="57f23956-6af0-4894-a957-f04e85794b9c">
+  <producedTypes>
+    <objectType typeId="bf1e0684-24cf-48c3-bcd6-30a27444acc1" valueTypeId="8c9837db-b840-4aac-b818-251c63daac9c"/>
+    <refType typeId="803da76f-95d0-4cb4-b01f-507c009b2d27" valueTypeId="dbaf9c3e-97ef-4cca-aa0f-a109df93c9e9"/>
+    <selectionType typeId="60a6a738-6c3c-45e5-b669-4dfeab6d1f54" valueTypeId="1a8d3e05-ec85-4ef7-822a-683747130016"/>
+    <listType typeId="1457cc14-3070-4b4c-aed8-94460eed295d" valueTypeId="d587d001-327f-4931-a0d4-fcca57ccf8be"/>
+    <managerType typeId="6db7e5a8-41e6-4349-b470-8eb9386bb73b" valueTypeId="21a2e4de-16ad-44bc-a84d-e21849de0186"/>
+  </producedTypes>
+  <name>ВидыВзаиморасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>
